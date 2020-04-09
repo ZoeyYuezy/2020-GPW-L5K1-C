@@ -25,7 +25,7 @@
 				<!--[if lt IE 9]>
 						<script src="js/html5shiv.js"></script>
 						<link rel="stylesheet" href="css/ie.css">
-				<![endif]-->
+				<![end]-->
 		</head>
 		<body>
                 <!-- HEADER TOP -->
