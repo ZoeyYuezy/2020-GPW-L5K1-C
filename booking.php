@@ -10,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC</title>
                 <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
 
             <!-- Style Sheet-->
