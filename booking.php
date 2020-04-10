@@ -103,7 +103,7 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
+                                        <li><a href="index.html">CBC </a>
                                         	<ul class="clearfix">
                                                 <li><a href="index2.html">Home 2</a></li>
                                                 <li><a href="index3.html">Home 3 </a></li>
