@@ -79,7 +79,7 @@
                             <div class="span8">
                             	<div class="top-menu">
                                 	<ul>
-                                		<li><a href="#">About US</a></li>
+                                		<li><a href="#">About CBC</a></li>
                                 		<li><a href="#">News</a></li>
                                 		<li><a href="#">Serbice</a></li>
                                 		<li><a href="#">Recruiment</a></li>
@@ -328,7 +328,7 @@
                             <div class="span3 f-widget">
                                 <h4>Company Infomation</h4>
                                 <ul>
-                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">About CBC</a></li>
                                     <li><a href="#">Team</a></li>
                                     <li><a href="#">Booking Tips</a></li>
                                     <li><a href="#">Payment Option</a></li>
@@ -338,7 +338,7 @@
                             <div class="span3 f-widget">
                                 <h4>Customer Care</h4>
                                 <ul>
-                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">About CBC</a></li>
                                     <li><a href="#">Team</a></li>
                                     <li><a href="#">Booking Tips</a></li>
                                     <li><a href="#">Payment Option</a></li>
@@ -375,7 +375,7 @@
                             	<footer>
                                 	<div class="footer-nav">
                                     	<ul>
-                                    		<li><a href="#">About US</a></li>
+                                    		<li><a href="#">About CBC</a></li>
                                     		<li><a href="#">News</a></li>
                                     		<li><a href="#">Serbice</a></li>
                                     		<li><a href="#">Recruiment </a></li>
