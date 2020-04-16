@@ -10,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC-Travel</title>
 				
 				<!-- Style Sheet-->
                 <link rel="stylesheet" href="css/bootstrap.css">
