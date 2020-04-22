@@ -110,9 +110,9 @@
                                         </li>
                                         <li><a href="travel_grid.html">Travel</a>
                                        	  <ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
+                                                <li><a href="travel_grid.php">Travel Grid</a></li>
+                                                <li><a href="travel_list.php">Travel list</a></li>
+                                                <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
                                       <li><a href="#">Holidays</a></li>
@@ -133,7 +133,7 @@
                                       <li><a href="#">Hot Deal</a></li>
                                         <li><a href="booking.html">Booking</a>
                                        	  <ul class="clearfix">
-                                                <li><a href="confirm.html">Confirmation</a></li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
                                         <li  class="last"><a href="contact.html">Contact</a></li>
