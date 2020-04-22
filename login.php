@@ -37,9 +37,9 @@ if (isset($_POST['submit'])) {
             $_SESSION['login_level'] = $row['level'];
             
             if ($_SESSION['login_level'] == 1) {
-                header('location: index.html');
+                header('location: index.php');
             } else if ($_SESSION['login_level'] == 2) {
-                header('location: index2.html');
+                header('location: index2.php');
             }
             
         } else {
@@ -69,10 +69,10 @@ if (isset($error)) {
     
 <head>
     <style>
-body{background:url(ccl.jpg) top left;
+body{background:url(cbc.jpg) top left;
 background-size:100% 768px;}
 </style>
-        <title>Chengdu Consultantcy Law</title><meta charset="UTF-8" />
+        <title>Chengdu Bus Company</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
