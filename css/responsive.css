@@ -1,0 +1,372 @@
+/****************************************************************************
+( 1024 X 768)
+****************************************************************************/
+@media only screen and (min-width: 959px) and (max-width: 1024px)
+{
+    #sidebar {width: 300px; }
+    .right_content, .portfolio-nav { width: 600px;}
+
+    .nav-wrapper nav > ul > li > a {padding: 10px 10px;}
+    .srch input[type="text"] {  width: 82%;}
+    .top-menu ul li a { padding: 0 9px; }
+    .social-nav {width: 74%;}
+    .crousal-btn .prev {left: 1px;}.crousal-btn .next { right: 0px;}
+    .heading { background: url(../Images/header-border.png) no-repeat -114px 24px;}
+    .hv-2 { background: url(../Images/Heading-border.png) no-repeat -78px 24px !important;}
+
+    .hotdeal ul li article .hot { width: 66px;  }.hotdeal ul li article { width: 140px; }
+    .hotdeal ul li article .hot p { font-size: 10px; text-transform: none; }
+    .booking_form .total a {padding: 13px 21px;}
+
+
+    .travel_lest .offer figure { width: 30%; float: left; height: 186px; }
+    .travel_lest .offer figure a {display: block;}
+    .travel_lest .offer figure img{height: 100%;}
+    .travel_lest article { width: 47.45%; float: left; text-align: left; padding: 5px 25px; position: relative; }
+    .travel_lest .offer .price { width: 14.2%; float: right;height: 182px; }
+    .travel_lest .offer .price h3 { line-height: 130px; margin: 0px; text-align: center;}
+    .travel_lest .offer article h3 { color: #017eba; text-transform: uppercase; margin-bottom: -4px; }
+    .travel_lest .offer article div { text-align: center; position: absolute; top: 20px; right: 25px; }
+    .travel_lest .offer article div p { margin-bottom: -7px; }
+    .travel_lest .offer article > p { font: 14px 'proxima_nova_rgregular', sans-serif; color: #515252; line-height: 24px; margin-bottom: 36px; }
+    .travel_lest .offer .price a {width: 85px; top: 100%;margin-top: -49px;}
+
+    .right_content .travel_lest  .offer {width: 600px;}
+    .right_content .offer {width: 180px;}
+    .offer article h3 {font-size: 18px;}
+    .right_content .offer article h3 {font-size: 24px; margin-bottom: 5px;}
+    .offer .price h3 {margin-left: 20px;}
+
+    .adress_wrap {height: 300px;}
+    .adress_wrap img { height: 100%;}
+
+}
+
+
+/****************************************************************************
+(800 X 600) + (768 X 1024)
+****************************************************************************/
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+    .detail-one {display: none;}
+    #accordion, #slider_tabs {left: 50px}
+    nav { display: none;  }
+    .responsive_nav {display: block;}
+    .srch input[type="text"] {  width: 74%;}
+    .top-menu ul li a { padding: 0 9px; }
+    .social-nav {width: 100%;}
+
+    .caroufredsel_wrapper .span3{ width: 227px; }
+
+    .testimonial {width: 90% !important; margin: 0 auto; }
+    .testimonial p {width: 90% !important;}
+
+    .crousal-btn .prev {left: 1px; z-index: 99999999;}.crousal-btn .next { right: 0px; z-index: 999999999;}
+    .f-widget input[type="text"] {width: 59px;}
+
+    .hotdeal ul li article .hot { width: 66px;  }.hotdeal ul li article { width: 66px; }
+    .hotdeal ul li article .hot p { font-size: 10px; text-transform: none; }
+
+    #sidebar {width: 257px; }
+    .right_content, .portfolio-nav { width: 434px;}
+    .right_content .travel_lest .offer {  width: 435px !important;  }
+
+    .travel_lest .offer figure { width: 25%; float: left; height: 196px; }
+    .travel_lest .offer figure a {display: block;}
+    .travel_lest .offer figure img{height: 100%;}
+    .travel_lest article { width: 46.45%; float: left; text-align: left; padding: 5px 25px; position: relative; }
+    .travel_lest .offer .price { width: 17%; float: right;height: 192px; }
+    .travel_lest .offer .price h3 { line-height: 180px; margin: 0px; text-align: center; padding: 0px; font-size: 22px;}
+    .travel_lest .offer article h3 { color: #017eba; text-transform: uppercase; margin-bottom: -4px; }
+    .travel_lest .offer article div { text-align: center; position: absolute; top: 20px; right: 25px; }
+    .travel_lest .offer article div p { margin-bottom: -7px; }
+    .travel_lest .offer article > p { font: 14px 'proxima_nova_rgregular', sans-serif; color: #515252; line-height: 24px; margin-bottom: 36px; }
+    .travel_lest .offer .price a {width: 74px; top: 100%;margin-top: -49px;}
+
+    .right_content .offer {width: 200px;}
+    .offer .price h3 {padding-left: 24px;}
+
+    .portfolio-nav li { margin-bottom: 30px; }
+    .portfolio-nav li a {padding-right: 30px;}
+
+    .booking li span, .summery form label { width: 125px;}
+    .booking_form label {display: block;}
+    .booking_form .total a { display: inline-block; margin: 0 5px 20px; }
+
+    #tabs_two .detail > ul { width: 50%; }
+
+    .right_content .travel_lest  .offer {width: 600px;}
+    .right_content .offer {width: 180px;}
+    .offer article h3 {font-size: 18px;}
+    .right_content .travel_lest .offer article h3 {font-size: 18px; margin-bottom: 0px;}
+    .offer .price h3 {margin-left: 20px;}
+    .our_rating {width: 100%;}
+
+
+    .heading { background: url(../Images/header-border.png) no-repeat -226px 24px;}
+    .hv-2 { background: url(../Images/Heading-border.png) no-repeat -152px 24px !important;}
+
+    .adress_wrap {height: 300px;}
+    .adress_wrap img { height: 100%;}
+}
+
+
+/****************************************************************************
+(768)
+****************************************************************************/
+@media only screen and ( max-width: 768px )
+{
+    .detail-one {display: none;}
+    #accordion, #slider_tabs {left: 50px}
+    nav { display: none;  }
+    .responsive_nav {display: block;}
+    .srch input[type="text"] {  width: 74%;}
+    .top-menu ul li a { padding: 0 9px; }
+    .social-nav {width: 100%;}
+
+    .caroufredsel_wrapper .span3{ width: 227px; }
+
+    .testimonial {width: 90% !important; margin: 0 auto; }
+    .testimonial p {width: 90% !important;}
+
+    .crousal-btn .prev {left: 1px; z-index: 99999999;}.crousal-btn .next { right: 0px; z-index: 999999999;}
+    .f-widget input[type="text"] {width: 59px;}
+
+    .hotdeal ul li article .hot { width: 66px;  }.hotdeal ul li article { width: 66px; }
+    .hotdeal ul li article .hot p { font-size: 10px; text-transform: none; }
+
+    #sidebar {width: 257px; }
+    .right_content, .portfolio-nav { width: 434px;}
+
+    .travel_lest .offer figure { width: 25%; float: left; height: 196px; }
+    .travel_lest .offer figure a {display: block;}
+    .travel_lest .offer figure img{height: 100%;}
+    .travel_lest article { width: 46.45%; float: left; text-align: left; padding: 5px 25px; position: relative; }
+    .travel_lest .offer .price { width: 17%; float: right;height: 192px; }
+    .travel_lest .offer .price h3 { line-height: 180px; margin: 0px; text-align: center; padding: 0px; font-size: 22px;}
+    .travel_lest .offer article h3 { color: #017eba; text-transform: uppercase; margin-bottom: -4px; }
+    .travel_lest .offer article div { text-align: center; position: absolute; top: 20px; right: 25px; }
+    .travel_lest .offer article div p { margin-bottom: -7px; }
+    .travel_lest .offer article > p { font: 14px 'proxima_nova_rgregular', sans-serif; color: #515252; line-height: 24px; margin-bottom: 36px; }
+    .travel_lest .offer .price a {width: 74px; top: 100%;margin-top: -49px;}
+
+    .right_content .offer {width: 200px;}
+    .offer .price h3 {padding-left: 24px;}
+
+    .portfolio-nav li { margin-bottom: 30px; }
+    .portfolio-nav li a {padding-right: 30px;}
+
+    .booking li span, .summery form label { width: 125px;}
+    .booking_form label {display: block;}
+    .booking_form .total a { display: inline-block; margin: 0 5px 20px; }
+
+    #tabs_two .detail > ul { width: 50%; }
+
+
+    .heading { background: url(../Images/header-border.png) no-repeat -226px 24px;}
+    .hv-2 { background: url(../Images/Heading-border.png) no-repeat -152px 24px !important;}
+
+    .adress_wrap {height: 300px;}
+    .adress_wrap img { height: 100%;}
+}
+
+
+/****************************************************************************
+(600 X 800)
+****************************************************************************/
+@media only screen and (min-width: 481px) and (max-width: 767px)
+{
+    .detail-one {display: none;}
+    #accordion, #slider_tabs {left: 50px}
+    nav { display: none;  }
+    .responsive_nav {display: block;}
+    .srch {width: 311px;float: right;  margin-top: -33px;  }
+    .srch form {width: 300px; margin: 0 auto;  }
+    .srch input[type="text"] {  width: 83%;}
+
+    .logo { /* position: relative; */   margin-top: 0px; text-align: center; background: #1c1c1c; padding: 25px 0;}
+    .logo a {/*  position: absolute; top: -27px; left: 0px; */ display: inline-block; }
+    .social-nav {width: 90%;}
+
+    .header_two .logo { line-height: 45px;}
+
+    .top-menu { margin-top: 15px; text-align: center; }
+    .top-menu ul li {margin-bottom: 10px;}
+
+    .offer, .right_content .offer { width: 250px; }
+    .caroufredsel_wrapper { width:88% !important; margin: 0 auto !important;   }
+    .caroufredsel_wrapper .span3{ float: left; width: 250px; margin: 0px 4px; }
+    .crousal-btn .prev {left: 1px;}.crousal-btn .next { right: 0px;}
+
+    .lang { float: left; }
+
+    .heading { text-align: center; background: none;}
+    .heading h2 { font-size: 26px;}
+    .heading h2 span { font-size: 25px;}
+
+    .testimonial {width: 90% !important; margin: 0 auto; }
+    .testimonial p {width: 90% !important;}
+    .f-widget { width: 90%; margin: 0 auto 30px;}
+
+    .serch { width: 89%; margin: 0 auto;}
+    .serch input[type="text"] { width: 91%;}
+
+    #test-next {  right: 35%;  }
+    #test-prev {  left: 35%;  }
+
+    .footer-nav li { margin-bottom: 20px; }
+    .footer-nav li a {padding-right: 11px; margin-right: 11px;}
+
+    .login_btn {margin-bottom: 25px;}
+
+    .hotdeal { width: 52%;float: left; margin: 5px;}
+    .notify {width: 45%;float: left;}
+
+
+    #sidebar {width: 95%;  margin: 0px auto 30px; }
+    #widget_accordion { width: 86%; }
+    .right_content, .portfolio-nav { width: 90%; margin: 0 auto; }
+
+    .portfolio-nav strong, .portfolio-nav li {margin-bottom: 10px;}
+    .grid_btn {display: inline-block;}
+
+    .right_content .travel_lest .offer {width: 500px;}
+    .right_content .offer { margin:0 2px 28px;}
+
+    .travel_lest .offer figure { width: 25%; float: left; height: 196px; }
+    .travel_lest .offer figure a {display: block;}
+    .travel_lest .offer figure img{height: 100%;}
+    .travel_lest article { width: 47.9%; float: left; text-align: left; padding: 5px 25px; position: relative; }
+    .travel_lest .offer .price { width: 17%; float: right;height: 192px; }
+    .travel_lest .offer .price h3 { line-height: 180px; margin: 0px; text-align: center; padding: 0px; font-size: 22px;}
+    .travel_lest .offer article h3 { color: #017eba; text-transform: uppercase; margin-bottom: -4px; }
+    .travel_lest .offer article div { text-align: center; position: absolute; top: 20px; right: 25px; }
+    .travel_lest .offer article div p { margin-bottom: -7px; }
+    .travel_lest .offer article > p { font: 14px 'proxima_nova_rgregular', sans-serif; color: #515252; line-height: 24px; margin-bottom: 36px; }
+    .travel_lest .offer .price a {width: 85px; top: 100%;margin-top: -49px;}
+
+    .right_content .travel_lest .offer article h3 {font-size: 18px; margin-bottom: 0px;}
+
+    #carousel-wrapper .caroufredsel_wrapper {width: 100.3% !important;}
+    #tabs_two > ul > li a { padding: 11px 15px 11px 33px; }
+
+    #tabs_two .detail > ul { width: 50%; }
+
+    .booking { width: 98%; margin: 0 auto; }
+    .booking .form , .booking .summery { width: 90%; margin: 0 auto; }
+    .booking_form .total a { display: inline-block; margin: 0 5px 20px; }
+
+
+    .detail  .hotdeal { width: 100%; margin: 0 auto 30px;}
+
+    .adress_wrap {height: 300px;}
+    .adress_wrap img { height: 100%;}
+
+    .contact_form, .map {width: 90%; margin: 0 auto 20px;}
+    .f-widget input[type="text"] {  width: 77%;  }
+}
+
+
+/****************************************************************************
+{320 X 480} + (480 X 320)
+****************************************************************************/
+@media only screen and (max-width: 480px)
+{
+    nav { display: none;  }
+	
+	.sign-in  { display: none; }
+	
+    .responsive_nav {display: block;}
+    .srch form {border-bottom: 1px solid #303030; width: 300px; margin: 0 auto;  }
+    .srch input[type="text"] {  width: 83%;}
+    .lang { float: none; }
+    .logo { /* position: relative; */   margin-top: 0px; text-align: center; background: #1c1c1c; padding: 25px 0;}
+    .logo a {/*  position: absolute; top: -27px; left: 0px; */ display: inline-block; }
+    .social-nav {width: 90%;}
+
+    .header_two .logo { line-height: 45px;}
+
+    .top-menu { margin-top: 15px; text-align: center; }
+    .top-menu ul li {margin-bottom: 15px;}
+    .top-menu ul li a { padding:0px 20px; }
+
+    .srch {width: 100%;float: none;  margin-top: 0px;  }
+
+    .flexslider { display: none; }
+
+    .offer, .right_content .offer  { width: 250px; }
+    .caroufredsel_wrapper { width:252px !important; margin: 0 auto !important;   }
+    .crousal-btn .prev {left: 1px;}.crousal-btn .next { right: 0px;}
+    .caroufredsel_wrapper .span3{ float: none; width: 100%; margin: 0; }
+
+    .heading { text-align: center; background: none;}
+    .heading h2 { font-size: 26px;}
+    .heading h2 span { font-size: 25px;}
+
+    .testimonial {width: 90% !important; margin: 0 auto; }
+    .testimonial p {width: 90% !important;}
+    .f-widget { width: 90%; margin: 0 auto 30px;}
+
+    .serch { width: 89%; margin: 0 auto;}
+    .serch input[type="text"] { width: 84%;}
+
+    #test-next {  right: 35%;  }
+    #test-prev {  left: 35%;  }
+
+    .footer-nav li { margin-bottom: 20px; }
+
+    .hotdeal { width: 90%; margin: 0 auto 30px;}
+    .detail  .hotdeal { width: 100%; margin: 0 auto 30px;}
+
+    .login_btn {margin-bottom: 25px;}
+    .notify {width: 89%; margin: 0 auto 30px;}
+
+    #sidebar {width: 95%;  margin: 0px auto 30px; }
+    #widget_accordion { width: 86%; }
+    .right_content, .portfolio-nav { width: 90%; margin: 0 auto; }
+    #project-container {width: 250px ; margin: 0 auto; }
+
+    .portfolio-nav strong, .portfolio-nav li {margin-bottom: 10px;}
+    .grid_btn {display: inline-block;}
+
+    .travel_lest .offer figure {width: 124%; float: none;}
+    .travel_lest article { width: 99%; float: none;  }
+    .travel_lest .offer .price {width: 124%; float: none; height: auto;}
+    .travel_lest .offer .price h3 {line-height: 45px;}
+    .travel_lest .offer .price a {background: url(../Images/link-btn.png) no-repeat; width: 71px; height: 49px;top: 0px; right: 0px; margin-top: 0px; }
+
+    .travel_lest .offer article div p { margin-bottom: 0px; }
+    .travel_lest .offer article div { text-align: left; position: static;}
+    #carousel-wrapper .caroufredsel_wrapper {width: 100.3% !important;}
+    #tabs_two > ul > li a { padding: 11px 7px 11px 6px; }
+
+
+    #tabs_two > ul > li a.one { background: #017db9; }
+    #tabs_two > ul > li a.two {background:  #017db9 ;}
+    #tabs_two > ul > li a.three {background: #017db9 ; }
+    #tabs_two > ul > li a.four {background: #017db9 ; }
+
+    #tabs_two > ul > li a.one:hover  { background: #fefdfd;}
+    #tabs_two > ul > li a.two:hover  {background: #fefdfd; }
+    #tabs_two > ul > li a.three:hover  {background: #fefdfd; }
+    #tabs_two > ul > li a.four:hover  {background: #fefdfd; }
+
+    #tabs_two > ul > li.ui-state-active  a.one { background:#fefdfd; }
+    #tabs_two > ul > li.ui-state-active  a.two {background:  #fefdfd; }
+    #tabs_two > ul > li.ui-state-active  a.three {background: #fefdfd; }
+    #tabs_two > ul > li.ui-state-active  a.four {background: #fefdfd; }
+
+    #tabs_two .detail > ul { width: 50%; }
+
+    .booking { width: 98%; margin: 0 auto; }
+    .booking .form , .booking .summery { width: 90%; margin: 0 auto; }
+    .booking_form .total a { display: inline-block; margin: 0 5px 20px; }
+
+    .adress_wrap {height: 400px;}
+    .adress_wrap img { height: 100%;}
+    .adress {left: 4%;}
+
+    .contact_form, .map {width: 90%; margin: 0 auto 20px;}
+    .f-widget input[type="text"] {  width: 56%;  }
+}
+
