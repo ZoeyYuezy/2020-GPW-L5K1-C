@@ -322,8 +322,8 @@
 
                             <div class="span3 f-widget copy-right">
                                 <a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                                <p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
-                                <p>Designed by Kavin</p>
+                                <p>© 2013 <a href="index.php">CBC</a>. All rights reserved</p>
+                                <p>Designed By Group C</p>
                             </div>
                             <div class="span3 f-widget">
                                 <h4>Company Infomation</h4>
