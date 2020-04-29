@@ -108,7 +108,7 @@
                                                 <li><a href="index3.php">Home 3 </a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                        	  <ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
@@ -136,7 +136,7 @@
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li  class="last"><a href="contact.html">Contact</a></li>
+                                        <li  class="last"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
 
