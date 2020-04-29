@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+</html><<<<<<< HEAD
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
@@ -173,7 +174,61 @@
                 </div>
                 <!-- Main Navigation -->
 
-			
+			<?php
+
+// 1. Open database connection
+require ('db.php');
+
+// 2. Do a query
+$query  = "SELECT id, name, workday, jointime "; 
+$query .= "FROM schedule";
+$result = mysqli_query($connection,$query);
+
+if (!$result) {
+    die("query is wrong");
+}
+?>
+
+        <head>
+        <title>Car Routlines</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor=" LightCyan">      
+        <h1 style="text-align:center">Car Routlines</h1>
+        <hr/>
+ <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
+     <tr>
+     <td>Bus Number</td>
+     <td>Start</td>
+     <td>End</td> 
+     <td>Routlines Details</td> 
+     </tr>          
+            
+            <?php
+// 3. use/show data
+while ($row = mysqli_fetch_array($result)) {
+    echo "<tr>";
+    echo "<td>" . $row["name"] . "</td>";
+    echo "<td>" . $row["workday"] . "</td>";
+    echo "<td>" . $row["jointime"] . "</td>";
+    echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
+    echo "</tr>";
+}
+    
+?>
+
+  </table>
+    
+
+    
+<?php   
+// 4. free results
+mysqli_free_result($result);
+
+// 5. close db connection
+mysqli_close($connection);
+?>
+</body>
 
                 <!-- Footer widget -->
                 <div class="footer-widget-wrapper">
