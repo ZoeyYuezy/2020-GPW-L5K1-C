@@ -32,21 +32,28 @@ if (!$result) {
 
 ?>
 
-<html>
-    <head>
-        <title>Bus Information</title>
-        <link type="text/css" rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bus Information</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
     </head>
     <body>
-        <table class="larry">
+        <table class="table table-bordered table-striped with-check">
             <thead>
-                <td>Bus Type</td>
-                <td>Bus Number</td>
-                 <td>Start</td>
-                <td>End</td>
-                <td>Date</td>
-                <td>Price</td>
-                <td>Driver</td>
+                <tr>
+                <th>Bus Type</th>
+                <th>Bus Number</th>
+                 <th>Start</th>
+                <th>End</th>
+                <th>Date</th>
+                <th>Price</th>
+                <th>Driver</th>
+                </tr>    
             </thead>
 
 <?php
