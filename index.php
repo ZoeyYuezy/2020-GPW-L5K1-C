@@ -52,7 +52,7 @@
 					                    	<a href="#" class="google"></a>
 					                    	<a href="#" class="rss"></a>
 					                    </div>
-                                        <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                        <a href="login.php" class="sign-in" id="login-link">Sign in</a>
 					                </div>
 					            </div>
 					    </div>
@@ -68,7 +68,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -131,7 +131,7 @@
                                       <li><a href="#">Vacations</a></li>
                                       <li><a href="#">Guide Book</a></li>
                                       <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                        	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
@@ -198,9 +198,9 @@
                     <!-- Reservation box -->
                     <div id="accordion">
 
-                      <h3> <span class="flight">Flights</span> <a href="#"></a> </h3>
+                      <h3> <span class="flight">Bus</span> <a href="bus_information.php"></a> </h3>
                       <div class="detail">
-                         <form action="#" method="post">
+                         <form action="bus_information.php" method="post">
                             <div class="trip">
                                 <input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
                                 <input type="radio" name="trip" value="onw-way"><span>One-way</span>
@@ -460,7 +460,7 @@
                                 		<figure>
                                 			<img src="images/testimonial-pic.png" alt="PIc"> 
                                 		</figure>
-                                		<p class="client">Kavin</p>
+                                		<p class="client">group c</p>
                                 		<span>Graphic Designer</span>
                                 	</div>
                                     <div>
@@ -490,16 +490,16 @@
                     	<div class="row">
                         	
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
+                            	<a href="#" class="f-logo"><img src="Images/logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
                                 <ul>
                                 	<li><a href="#">About US</a></li>
                                 	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
+                                	<li><a href="booking.php">Booking Tips</a></li>
                                 	<li><a href="#">Payment Option</a></li>
                                 	<li class="last"><a href="#">Infomation</a></li>
                                 </ul>
@@ -509,7 +509,7 @@
                                 <ul>
                                 	<li><a href="#">About US</a></li>
                                 	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
+                                	<li><a href="booking.php">Booking Tips</a></li>
                                 	<li><a href="#">Payment Option</a></li>
                                 	<li class="last"><a href="#">Infomation</a></li>
                                 </ul>
@@ -565,7 +565,7 @@
                     <div id="login-popup">
                     	<h2>login Panel</h2>
                         <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
+                            <input type="text" value="" id="username" placeholder="group c@gmail.com" />
                             <input type="text" value="" id="password" placeholder="Password" />
                             
                             <input type="submit" value="sıgn ın" id="login-button"/>
