@@ -198,9 +198,9 @@
                     <!-- Reservation box -->
                     <div id="accordion">
 
-                      <h3> <span class="flight">Flights</span> <a href="#"></a> </h3>
+                      <h3> <span class="flight">Bus</span> <a href="bus_information.php"></a> </h3>
                       <div class="detail">
-                         <form action="#" method="post">
+                         <form action="bus_information.php" method="post">
                             <div class="trip">
                                 <input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
                                 <input type="radio" name="trip" value="onw-way"><span>One-way</span>
@@ -460,7 +460,7 @@
                                 		<figure>
                                 			<img src="images/testimonial-pic.png" alt="PIc"> 
                                 		</figure>
-                                		<p class="client">Kavin</p>
+                                		<p class="client">group c</p>
                                 		<span>Graphic Designer</span>
                                 	</div>
                                     <div>
@@ -565,7 +565,7 @@
                     <div id="login-popup">
                     	<h2>login Panel</h2>
                         <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
+                            <input type="text" value="" id="username" placeholder="group c@gmail.com" />
                             <input type="text" value="" id="password" placeholder="Password" />
                             
                             <input type="submit" value="sıgn ın" id="login-button"/>
