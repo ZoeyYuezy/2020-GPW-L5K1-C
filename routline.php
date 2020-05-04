@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<!doctype html>
+>>>>>>> 3a6e94619de574a8179a4a78b873076fe0eff52a
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
 <!--[if IE 9]>    <html class="ie9" > <![endif]-->
