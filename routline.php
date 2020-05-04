@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-
-=======
 <!doctype html>
->>>>>>> 3a6e94619de574a8179a4a78b873076fe0eff52a
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
 <!--[if IE 9]>    <html class="ie9" > <![endif]-->
@@ -15,14 +11,15 @@
 				
 				<!-- Title -->
 				<title>CBC</title>
-				
-				<!-- Style Sheet-->
+                <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
+
+            <!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
                 <link rel="stylesheet" href="css/bootstrap.css">
 				<link rel="stylesheet" href="css/responsive.css">
                 <link rel="stylesheet" href="css/flexslider.css">
-				
-                <!-- favicon -->
+
+               <!-- favicon -->
 				<link rel="shortcut icon" href="images/favicon.png">
 				
 				<!--[if lt IE 9]>
@@ -113,7 +110,7 @@
                                             </ul>
                                         </li>
                                         
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                         	<ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
@@ -170,13 +167,61 @@
                                         </li>
                                     </ul>
                                 </div>
+                            
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Main Navigation -->
 
-			<?php
+				<!-- Crum -->
+                <div class="crum-wrapper">
+                	<div class="container">
+                    	<div class="row">
+                        	<div class="span12">
+                            	<a href="">Home</a>
+                                <span class="crum">Car Routlines</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Crum-->
+
+                
+                <!-- Grid page -->
+                <div class="content booking_wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="span12 booking clearfix">
+                                <div class="top">
+                                    <h2>Car Routlines</h2>
+                                    <h3>Routlines</h3>
+                                    <div class="stars">
+                                        <a href="#" class="active"></a>
+                                        <a href="#" class="active"></a>
+                                        <a href="#" class="active"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+
+                                <div class="bottom clearfix">
+                                    <div class="span6 booking_form">
+                                        <div class="row">
+                                            <div class="span5 form">
+                                                <h2>Car Routlines</h2>
+                                                        
+        <hr/>
+ <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
+     <tr>
+     <td>Bus Number</td>
+     <td>Start</td>
+     <td>End</td> 
+     <td>Routlines Details</td> 
+     </tr>          
+
+                                    
+                                <?php
 
 // 1. Open database connection
 require ('db.php');
@@ -205,18 +250,8 @@ if (!$result) {
                 	</div>
                 </div> <head>
       
-        <link type="text/css" rel="stylesheet" href="style.css">
-    </head>
-    <body bgcolor=" LightCyan">      
-        <h1 style="text-align:center">Car Routlines</h1>
-        <hr/>
- <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
-     <tr>
-     <td>Bus Number</td>
-     <td>Start</td>
-     <td>End</td> 
-     <td>Routlines Details</td> 
-     </tr>          
+              
+
             
             <?php
 // 3. use/show data
@@ -231,7 +266,7 @@ while ($row = mysqli_fetch_array($result)) {
     
 ?>
 
-  </table>
+
     
 
     
@@ -242,7 +277,9 @@ mysqli_free_result($result);
 // 5. close db connection
 mysqli_close($connection);
 ?>
-</body>
+     <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor=" LightCyan">
 
                 <!-- Footer widget -->
                 <div class="footer-widget-wrapper">
