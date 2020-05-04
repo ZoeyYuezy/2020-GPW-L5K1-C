@@ -52,7 +52,7 @@
 					                    	<a href="#" class="google"></a>
 					                    	<a href="#" class="rss"></a>
 					                    </div>
-                                        <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                        <a href="login.php" class="sign-in" id="login-link">Sign in</a>
 					                </div>
 					            </div>
 					    </div>
@@ -68,7 +68,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -131,7 +131,7 @@
                                       <li><a href="#">Vacations</a></li>
                                       <li><a href="#">Guide Book</a></li>
                                       <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                        	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
@@ -490,16 +490,16 @@
                     	<div class="row">
                         	
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
+                            	<a href="#" class="f-logo"><img src="Images/logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
                                 <ul>
                                 	<li><a href="#">About US</a></li>
                                 	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
+                                	<li><a href="booking.php">Booking Tips</a></li>
                                 	<li><a href="#">Payment Option</a></li>
                                 	<li class="last"><a href="#">Infomation</a></li>
                                 </ul>
@@ -509,7 +509,7 @@
                                 <ul>
                                 	<li><a href="#">About US</a></li>
                                 	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
+                                	<li><a href="booking.php">Booking Tips</a></li>
                                 	<li><a href="#">Payment Option</a></li>
                                 	<li class="last"><a href="#">Infomation</a></li>
                                 </ul>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
@@ -11,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC</title>
 				
 				<!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
@@ -509,7 +508,7 @@
                         	
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
+                            	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
                             	<p>Designed by Kavin</p>
                             </div>
                             <div class="span3 f-widget">
@@ -633,7 +632,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC</title>
 				
 				<!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
@@ -725,18 +724,18 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
+                                        <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
                                                 <li><a href="index2.html">Home 2</a></li>
                                                 <li><a href="index3.html">Home 3 </a></li>
                                             </ul>
                                         </li>
                                         
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                         	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
+                                                <li><a href="travel_grid.php">Travel Grid</a></li>
+                                                <li><a href="travel_list.php">Travel list</a></li>
+                                                <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Holidays</a></li>
@@ -755,21 +754,21 @@
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                         	<ul class="clearfix">
-                                                <li><a href="confirm.html">Confirmation</a></li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li  class="last"><a href="contact.html">Contact</a></li>
+                                        <li  class="last"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
 
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
+                                                <li><a href="index.php">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
                                                 <li><a href="#">Holidays</a></li>
                                                 <li><a href="#">Flights</a> </li>
@@ -799,7 +798,7 @@
                 	<div class="container">
                     	<div class="row">
                         	<div class="span12">
-                            	<a href="">Home</a>
+                            	<a href="index.php">Home</a>
                                 <span class="crum">List Page</span>
                             </div>
                         </div>
@@ -1131,7 +1130,7 @@
                         	
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
+                            	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
                             	<p>Designed by Kavin</p>
                             </div>
                             <div class="span3 f-widget">

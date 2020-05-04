@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
@@ -11,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC</title>
                 <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
 
             <!-- Style Sheet-->
@@ -225,7 +224,7 @@
                         	
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
+                            	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
                             	<p>Designed by Kavin</p>
                             </div>
                             <div class="span3 f-widget">
@@ -348,7 +347,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>CBC</title>
                 <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
 
             <!-- Style Sheet-->
@@ -562,8 +561,8 @@
                         	
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
