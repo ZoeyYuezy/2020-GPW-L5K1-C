@@ -53,7 +53,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign in</a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -103,18 +103,18 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
+                                        <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
                                                 <li><a href="index2.html">Home 2</a></li>
                                                 <li><a href="index3.html">Home 3 </a></li>
                                             </ul>
                                         </li>
                                        
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                         	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
+                                                <li><a href="travel_grid.php">Travel Grid</a></li>
+                                                <li><a href="travel_list.php">Travel list</a></li>
+                                                <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Holidays</a></li>
@@ -133,12 +133,12 @@
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                         	<ul class="clearfix">
-                                                <li><a href="confirm.html">Confirmation</a></li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li  class="last"><a href="contact.html">Contact</a></li>
+                                        <li  class="last"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
 
@@ -147,7 +147,7 @@
                                         <li class="open">
                                             <a href="#">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
+                                                <li><a href="index.php">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
                                                 <li><a href="#">Holidays</a></li>
                                                 <li><a href="#">Flights</a> </li>
@@ -178,7 +178,7 @@
                 	<div class="container">
                     	<div class="row">
                         	<div class="span12">
-                            	<a href="">Home</a>
+                            	<a href="index.php">Home</a>
                                 <span class="crum">Confirm</span>
                             </div>
                         </div>
@@ -205,14 +205,14 @@
                                                 <h2>Travel Infomation</h2>
                                                 <h3>Traveller Infomation</h3>
                                                 <ul>
-                                                    <li><span>First Name:</span>Kavin</li>
-                                                    <li><span>Last Name:</span>Hieu</li>
-                                                    <li><span>Your Name:</span>Kavinhieu@gmail.com</li>
+                                                    <li><span>First Name:</span>Allen</li>
+                                                    <li><span>Last Name:</span>Xu</li>
+                                                    <li><span>Your Name:</span>Allen@gmail.com</li>
                                                 </ul>
                                                 <h3>Payment</h3>
-                                                <p>Lorem ipsum venenatis donec sociosqu porta tempor, aptent augue leo dictum nam, senectus dapibus potenti metus velit litora sollicitudin pulvinar pharetra taciti aenean nunc aenean, feugiat scelerisque leo duis netus consequat</p>
+                                                <p>Wechat Wallet</p>
                                                 <h3>special request</h3>
-                                                <p>Lorem ipsum venenatis donec sociosqu porta tempor, aptent augue leo dictum nam, senectus dapibus potenti metus velit litora sollicitudin pulvinar </p>
+                                                <p>Near Windows </p>
 
                                                 <div class="total">
                                                     <p>
@@ -230,11 +230,11 @@
                                             <div class="span1"></div>
                                             <div class="span4">
                                                 <div class="summery">
-                                                    <h2>Hotel Sammary</h2>
+                                                    <h2>Ticket Sammary</h2>
 
                                                     <div class="top">
-                                                        <h2>Kavin hotel</h2>
-                                                        <h3>Greece</h3>
+                                                        <h2>Allen Ticket</h2>
+                                                        <h3>Chengdu-Jiuzaigou</h3>
                                                         <div class="stars">
                                                             <a href="#" class="active"></a>
                                                             <a href="#" class="active"></a>
@@ -246,18 +246,18 @@
 
                                                     <h3>Summary</h3>
                                                     <ul>
-                                                        <li><span>Room:</span>Single Room</li>
-                                                        <li><span>Price p night:</span>138$</li>
-                                                        <li><span>Check in:</span>15 / Feb / 2113</li>
-                                                        <li><span>Check out:</span>16 / Feb / 2113</li>
+                                                        <li><span>Position:</span>01A</li>
+                                                        <li><span>Price:</span>138$</li>
+                                                        <li><span>Start Date:</span>15 / Feb / 2013</li>
+                                                        <li><span>Arrive Date:</span>16 / Feb / 2013</li>
                                                     </ul>
 
-                                                    <h3>Charges</h3>
+                                                    <h3>Extral Charges:Hotel</h3>
                                                     <ul>
                                                         <li><span>2 Night:</span>Single Room</li>
-                                                        <li><span>VAT:</span>138$</li>
-                                                        <li><span>Fees:</span>15 / Feb / 2113</li>
-                                                        <li><span>Total:</span>16 / Feb / 2113</li>
+                                                        <li><span>Fees:</span>200$</li>
+                                                        <li><span>Date:</span>15 / Feb / 2113</li>
+                                                        <li><span>Total:</span>338$</li>
                                                     </ul>
                                                 </div>
                                             </div>
