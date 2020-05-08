@@ -52,7 +52,7 @@
 					                    	<a href="#" class="google"></a>
 					                    	<a href="#" class="rss"></a>
 					                    </div>
-                                        <a href="login.php" class="sign-in" id="login-link">Sign in</a>
+                                        <a href="login.php" class="sign-in" id="login-link">Sign Out</a>
 					                </div>
 					            </div>
 					    </div>
