@@ -1,10 +1,9 @@
 <?php
 
 require('db.php');
-require('logincheck.php');
 // 2. Do a query
-$query  = "SELECT id, store, engine, vehicle_chassis, vehicle_window, wiring "; 
-$query .= "FROM lc ";
+$query  = "SELECT date, volume, rout "; 
+$query .= "FROM sales_volume ";
 
 $result = mysqli_query($connection, $query);
 
