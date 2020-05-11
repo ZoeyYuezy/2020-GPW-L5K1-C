@@ -215,7 +215,15 @@ if (!$result) {
                         </div>
                         
                 	</div>
-                </div> <head>
+                </div> 
+            <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
+                <tr>
+     <td>Start Place</td>
+     <td>End Place</td>
+     <td>Date</td> 
+     <td>Price</td> 
+    
+     </tr>
       
               
 
