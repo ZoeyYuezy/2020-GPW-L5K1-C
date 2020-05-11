@@ -214,10 +214,10 @@
         <hr/>
  <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
      <tr>
-     <td>Bus Number</td>
-     <td>Start</td>
-     <td>End</td> 
-     <td>Routlines Details</td> 
+     <td>Start Place</td>
+     <td>End Place</td>
+     <td>Date</td> 
+     <td>Price</td> 
      </tr>          
 
                                     
@@ -227,8 +227,8 @@
 require ('db.php');
 
 // 2. Do a query
-$query  = "SELECT id, name, workday, jointime "; 
-$query .= "FROM schedule";
+$query  = "SELECT initial_location, destination, date, price "; 
+$query .= "FROM routline";
 $result = mysqli_query($connection,$query);
 
 if (!$result) {
@@ -257,9 +257,10 @@ if (!$result) {
 // 3. use/show data
 while ($row = mysqli_fetch_array($result)) {
     echo "<tr>";
-    echo "<td>" . $row["name"] . "</td>";
-    echo "<td>" . $row["workday"] . "</td>";
-    echo "<td>" . $row["jointime"] . "</td>";
+    echo "<td>" . $row["initial_location"] . "</td>";
+    echo "<td>" . $row["destination"] . "</td>";
+    echo "<td>" . $row["date"] . "</td>";
+    echo "<td>" . $row["price"] . "</td>";
     echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
     echo "</tr>";
 }
