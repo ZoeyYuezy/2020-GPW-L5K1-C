@@ -53,7 +53,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign in</a>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +105,8 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.php">Home 2</a></li>
-                                                <li><a href="index3.php">Home 3 </a></li>
+                                                <li><a href="index2.html">Home 2</a></li>
+                                                <li><a href="index3.html">Home 3 </a></li>
                                             </ul>
                                         </li>
                                         
@@ -145,7 +145,7 @@
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
                                                 <li><a href="#">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
@@ -179,8 +179,8 @@
                 	<div class="container">
                     	<div class="row">
                         	<div class="span12">
-                            	<a href="">Home</a>
-                                <span class="crum">Car Routlines</span>
+                            	<a href="index.php">Home</a>
+                                <span class="crum">Booking</span>
                             </div>
                         </div>
                     </div>
@@ -194,8 +194,8 @@
                         <div class="row">
                             <div class="span12 booking clearfix">
                                 <div class="top">
-                                    <h2>Car Routlines</h2>
-                                    <h3>Routlines</h3>
+                                    <h2>Ticket</h2>
+                                    <h3>Chengdu-Yaan</h3>
                                     <div class="stars">
                                         <a href="#" class="active"></a>
                                         <a href="#" class="active"></a>
@@ -209,117 +209,155 @@
                                     <div class="span6 booking_form">
                                         <div class="row">
                                             <div class="span5 form">
-                                                <h2>Car Routlines</h2>
-                                                        
-        <hr/>
- <table width="80%" border="double" cellpadding="2" cellspacing="1" align="center" >
-     <tr>
-     <td>Start Place</td>
-     <td>End Place</td>
-     <td>Date</td> 
-     <td>Price</td> 
-     </tr>          
+                                                <h2>Travel Infomation</h2>
+                                                <form>
+                                                    <h3>Traveller Infomation</h3>
+                                                    <div class="clearfix"></div>
+                                                    <label>First Name: </label>
+                                                    <input type="text"/>
+                                                    <label>Last Name: </label>
+                                                    <input type="text"/>
+                                                    <label>Your Name: </label>
+                                                    <input type="text"/>
 
-                                    
-                                <?php
+                                                    <h3>Credit cart infomation</h3>
+                                                    <a href="#" class="card"><img src="images/card.png" alt=""/></a>
+                                                    <label>Name on Card: </label>
+                                                    <input type="text"/>
+                                                    <label>Card Number: </label>
+                                                    <input type="text"/>
+                                                    <label>Your Email: </label>
+                                                    <input type="text"/>
+                                                    <h3>Wechat/Alipay infomation</h3>
+                                                    <label>Account: </label>
+                                                    <input type="text"/>
+                                                    <label>Code: </label>
+                                                    <input type="text"/>
+                                                    <fieldset>
+                                                        <label>Expiration Date: </label>
+                                                        <input type="text"/>
+                                                        <input type="text"/>
+                                                    </fieldset>
 
-// 1. Open database connection
-require ('db.php');
+                                                    <fieldset>
+                                                        <label>Security Code: </label>
+                                                        <input type="text"/>
+                                                    </fieldset>
 
-// 2. Do a query
-$query  = "SELECT initial_location, destination, date, price "; 
-$query .= "FROM routline";
-$result = mysqli_query($connection,$query);
+                                                    <h3>Credit cart infomation</h3>
+                                                    <div class="cards">
+                                                        <a href="#"></a>
+                                                        <a href="#"></a>
+                                                        <a href="#"></a>
+                                                        <a href="#"></a>
+                                                    </div>
+                                                    <label>Country: </label>
+                                                    <input type="text"/>
+                                                    <label>City: </label>
+                                                    <input type="text"/>
+                                                    <label>Address: </label>
+                                                    <input type="text"/>
 
-if (!$result) {
-    die("query is wrong");
-}
-?>
-               	<div class="specialoffer-wrapper">
-                	<div class="container">
-                    	
-                        <!-- Heading -->
-                        <div class="row">
-                        	<div class="span12">
-                            	<div class="heading">
-                                	<h2>Car<span>Routlines</span></h2>
+                                                    <fieldset>
+                                                        <label>State </label>
+                                                        <input type="text"/>
+                                                    </fieldset>
+
+                                                    <fieldset>
+                                                        <label>Zip Code: </label>
+                                                        <input type="text"/>
+                                                    </fieldset>
+
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span5">
+                                        <div class="row">
+                                            <div class="span1"></div>
+                                            <div class="span4">
+                                                <div class="summery">
+                                                    <h2>Ticket Sammary</h2>
+                                                    <div>
+                                                        <h3>Summary</h3>
+                                                        <ul>
+                                                           <li><span>Type:</span>Business</li>
+                                                            <li><span>Position:</span>01A</li>
+                                                            <li><span>Price:</span>138$</li>
+                                                            <li><span>Start Date:</span>15 / Feb / 2013</li>
+                                                            <li><span>Arrive Date:</span>16 / Feb / 2013</li>
+                                                        </ul>
+
+                                                        <h3>Hotel Charges</h3>
+                                                        <ul>
+                                                            <li><span>2 Night:</span>Single Room</li>
+                                                            <li><span>Price:</span>200$</li>
+                                                            <li><span>Date:</span>15 / Feb / 2113</li>
+                                                            <li><span>Total:</span>338$</li>
+                                                        </ul>
+                                                    </div>
+                                                    <h3>Accept and cirm</h3>
+                                                    <form>
+                                                        <input type="checkbox"/>
+                                                        <p>I agree to theconditions.</p>
+                                                        <div class="clearfix"></div>
+                                                        <label>Grand Total:</label>
+                                                        <span>338<small>$</small></span>
+                                                        <div class="clearfix"></div>
+                                                        <input type="submit" value="book now"/>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                	</div>
-                </div> <head>
-      
-              
-
-            
-            <?php
-// 3. use/show data
-while ($row = mysqli_fetch_array($result)) {
-    echo "<tr>";
-    echo "<td>" . $row["initial_location"] . "</td>";
-    echo "<td>" . $row["destination"] . "</td>";
-    echo "<td>" . $row["date"] . "</td>";
-    echo "<td>" . $row["price"] . "</td>";
-    echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
-    echo "</tr>";
-}
-    
-?>
+                    </div>
+                </div>
 
 
-    
 
-    
-<?php   
-// 4. free results
-mysqli_free_result($result);
-
-// 5. close db connection
-mysqli_close($connection);
-?>
-     <link type="text/css" rel="stylesheet" href="style.css">
-    </head>
-    <body bgcolor=" LightCyan">
 
                 <!-- Footer widget -->
                 <div class="footer-widget-wrapper">
-                	<div class="container">
-                    	<div class="row">
-                        	
+                    <div class="container">
+                        <div class="row">
+
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                                <a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
+                                <p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
+                                <p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
-                            	<h4>Company Infomation</h4>
+                                <h4>Company Infomation</h4>
                                 <ul>
-                                	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Booking Tips</a></li>
+                                    <li><a href="#">Payment Option</a></li>
+                                    <li class="last"><a href="#">Infomation</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
-                            	<h4>Customer Care</h4>
+                                <h4>Customer Care</h4>
                                 <ul>
-                                	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                    <li><a href="#">About US</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Booking Tips</a></li>
+                                    <li><a href="#">Payment Option</a></li>
+                                    <li class="last"><a href="#">Infomation</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
-                            	<div class="cc">
-                            		<h4>Customer Support</h4>
-                            		<h2>1-669-559-4378</h2>
-                            		<span class="pull-right">Support 24/24</span>
-                            	</div>
-                            	<div class="f-widget n-letter">
-                                	<h4>Newsletter</h4>
+                                <div class="cc">
+                                    <h4>Customer Support</h4>
+                                    <h2>1-669-559-4378</h2>
+                                    <span class="pull-right">Support 24/24</span>
+                                </div>
+                                <div class="f-widget n-letter">
+                                    <h4>Newsletter</h4>
 
                                     <form>
                                         <input type="text" name="newlatter" value="Enter your email...">
@@ -327,7 +365,7 @@ mysqli_close($connection);
                                     </form>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -399,4 +437,5 @@ mysqli_close($connection);
                 </script>
                 <script src="js/custom.js"></script>		
 		</body>
+</html>
 =======
