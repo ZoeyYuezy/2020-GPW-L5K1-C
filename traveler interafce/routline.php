@@ -188,134 +188,64 @@
                 <!-- Crum-->
 
                 
-                <!-- Grid page -->
-                <div class="content booking_wrap">
-                    <div class="container">
+                 <?php
+
+// 1. Open database connection
+require ('db.php');
+
+// 2. Do a query
+$query  = "SELECT initial_location, destination, date, price "; 
+$query .= "FROM routline";
+$result = mysqli_query($connection,$query);
+
+if (!$result) {
+    die("query is wrong");
+}
+?>
+               	<div class="specialoffer-wrapper">
+                	<div class="container">
+                    	
+                        <!-- Heading -->
                         <div class="row">
-                            <div class="span12 booking clearfix">
-                                <div class="top">
-                                    <h2>Ticket</h2>
-                                    <h3>Chengdu-Yaan</h3>
-                                    <div class="stars">
-                                        <a href="#" class="active"></a>
-                                        <a href="#" class="active"></a>
-                                        <a href="#" class="active"></a>
-                                        <a href="#"></a>
-                                        <a href="#"></a>
-                                    </div>
-                                </div>
-
-                                <div class="bottom clearfix">
-                                    <div class="span6 booking_form">
-                                        <div class="row">
-                                            <div class="span5 form">
-                                                <h2>Travel Infomation</h2>
-                                                <form>
-                                                    <h3>Traveller Infomation</h3>
-                                                    <div class="clearfix"></div>
-                                                    <label>First Name: </label>
-                                                    <input type="text"/>
-                                                    <label>Last Name: </label>
-                                                    <input type="text"/>
-                                                    <label>Your Name: </label>
-                                                    <input type="text"/>
-
-                                                    <h3>Credit cart infomation</h3>
-                                                    <a href="#" class="card"><img src="images/card.png" alt=""/></a>
-                                                    <label>Name on Card: </label>
-                                                    <input type="text"/>
-                                                    <label>Card Number: </label>
-                                                    <input type="text"/>
-                                                    <label>Your Email: </label>
-                                                    <input type="text"/>
-                                                    <h3>Wechat/Alipay infomation</h3>
-                                                    <label>Account: </label>
-                                                    <input type="text"/>
-                                                    <label>Code: </label>
-                                                    <input type="text"/>
-                                                    <fieldset>
-                                                        <label>Expiration Date: </label>
-                                                        <input type="text"/>
-                                                        <input type="text"/>
-                                                    </fieldset>
-
-                                                    <fieldset>
-                                                        <label>Security Code: </label>
-                                                        <input type="text"/>
-                                                    </fieldset>
-
-                                                    <h3>Credit cart infomation</h3>
-                                                    <div class="cards">
-                                                        <a href="#"></a>
-                                                        <a href="#"></a>
-                                                        <a href="#"></a>
-                                                        <a href="#"></a>
-                                                    </div>
-                                                    <label>Country: </label>
-                                                    <input type="text"/>
-                                                    <label>City: </label>
-                                                    <input type="text"/>
-                                                    <label>Address: </label>
-                                                    <input type="text"/>
-
-                                                    <fieldset>
-                                                        <label>State </label>
-                                                        <input type="text"/>
-                                                    </fieldset>
-
-                                                    <fieldset>
-                                                        <label>Zip Code: </label>
-                                                        <input type="text"/>
-                                                    </fieldset>
-
-
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="span5">
-                                        <div class="row">
-                                            <div class="span1"></div>
-                                            <div class="span4">
-                                                <div class="summery">
-                                                    <h2>Ticket Sammary</h2>
-                                                    <div>
-                                                        <h3>Summary</h3>
-                                                        <ul>
-                                                           <li><span>Type:</span>Business</li>
-                                                            <li><span>Position:</span>01A</li>
-                                                            <li><span>Price:</span>138$</li>
-                                                            <li><span>Start Date:</span>15 / Feb / 2013</li>
-                                                            <li><span>Arrive Date:</span>16 / Feb / 2013</li>
-                                                        </ul>
-
-                                                        <h3>Hotel Charges</h3>
-                                                        <ul>
-                                                            <li><span>2 Night:</span>Single Room</li>
-                                                            <li><span>Price:</span>200$</li>
-                                                            <li><span>Date:</span>15 / Feb / 2113</li>
-                                                            <li><span>Total:</span>338$</li>
-                                                        </ul>
-                                                    </div>
-                                                    <h3>Accept and cirm</h3>
-                                                    <form>
-                                                        <input type="checkbox"/>
-                                                        <p>I agree to theconditions.</p>
-                                                        <div class="clearfix"></div>
-                                                        <label>Grand Total:</label>
-                                                        <span>338<small>$</small></span>
-                                                        <div class="clearfix"></div>
-                                                        <input type="submit" value="book now"/>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        	<div class="span12">
+                            	<div class="heading">
+                                	<h2>Car<span>Routlines</span></h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        
+                	</div>
+                </div> <head>
+      
+              
+
+            
+            <?php
+// 3. use/show data
+while ($row = mysqli_fetch_array($result)) {
+    echo "<tr>";
+    echo "<td>" . $row["initial_location"] . "</td>";
+    echo "<td>" . $row["destination"] . "</td>";
+    echo "<td>" . $row["date"] . "</td>";
+    echo "<td>" . $row["price"] . "</td>";
+    echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
+    echo "</tr>";
+}
+    
+?>
+
+
+    
+
+    
+<?php   
+// 4. free results
+mysqli_free_result($result);
+
+// 5. close db connection
+mysqli_close($connection);
+?>
+
 
 
 
