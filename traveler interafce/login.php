@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
             }
             
         } else {
-            echo "Login failed";
+            header('location:loginfailed.php');
         }
         
         // 4. free results
