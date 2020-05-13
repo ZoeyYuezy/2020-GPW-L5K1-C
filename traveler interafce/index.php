@@ -104,8 +104,8 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.php">Home 2</a></li>
-                                                <li><a href="index3.php">Home 3 </a></li>
+                                                <li><a href="login.php">Home 2</a></li>
+                                             
                                             </ul>
                                         </li>
                                         <li><a href="travel_grid.php">Travel</a>

@@ -20,7 +20,7 @@
                 <link rel="stylesheet" href="css/flexslider.css">
 
                <!-- favicon -->
-				<link rel="shortcut icon" href="images/favicon.png">
+				<link rel="shortcut icon" href="Images/favicon.png">
 				
 				<!--[if lt IE 9]>
 						<script src="js/html5shiv.js"></script>
@@ -53,7 +53,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign Out</a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -105,8 +105,7 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="index2.php">Home 2</a></li>
                                             </ul>
                                         </li>
                                         
@@ -133,7 +132,7 @@
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                         	<ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
@@ -145,7 +144,7 @@
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
                                                 <li><a href="#">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
@@ -225,7 +224,7 @@
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
@@ -293,19 +292,6 @@
                     </div>
                 </div>
                 <!-- Footer -->
-
-				<div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
                 
                 <!-- Scripts -->
 				<script src="js/jquery-1.7.1.min.js"></script>
