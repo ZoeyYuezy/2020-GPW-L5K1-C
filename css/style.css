@@ -120,13 +120,13 @@ h1 a { color: #000; }
 h2 { font:36px 'gotham_roundedmedium',Times New Roman, Times, serif;color: #f2f2f2; }
 h2 span { color: #fff; }
 h3 { font:24px 'gotham_roundedlight',Times New Roman, Times, serif; }
-h3 a { color: #000; }
+h3 a { color: #fff; }
 h4 { font:18px 'gotham_roundedlight',Times New Roman, Times, serif; }
-h4 a { color: #000; }
+h4 a { color: #fff; }
 h5 {font:12px 'gotham_roundedlight',Times New Roman, Times, serif; }
-h5 a { color: #000; }
+h5 a { color: #fff; }
 h6 { font-size: 10px; }
-h6 a { color: #000; }
+h6 a { color: #fff; }
 
 ul {}
 ul li {}
@@ -154,7 +154,7 @@ p { font: 14px 'proxima_nova_rgregular',Times New Roman, Times, serif; color: #f
 /****************************************************************************
 	Header
 ****************************************************************************/
-.header-one .headertop-wrapper { background: url(../images/Headertop-bg.png) repeat-x; width: 100%; border-bottom: 1px solid #2f2f2f; }
+.header-one .headertop-wrapper { background: url(../Images/Headertop-bg.png) repeat-x; width: 100%; border-bottom: 1px solid #2f2f2f; }
 
 .header_two {background: rgba(0,0,0,.7) !important; position: relative; z-index: 9999;}
 .header_two .logo { margin-top: 0px; line-height: 144px; }
@@ -172,15 +172,15 @@ p { font: 14px 'proxima_nova_rgregular',Times New Roman, Times, serif; color: #f
 .login_btn .btns a { color: #ffffff; margin: 0px 10px;}
 .login_btn .btns { background: #708090; padding: 10px;border-radius: 27px; width: 60%; margin: 0 auto;}
 
-.lang { border-left: 1px solid #fff; border-right: 1px solid #fff; padding: 8px 15px; width:210px; }
-.lang span { color: #a0a0a0; }
+.lang { border-left: 1px solid #2f2f2f; border-right: 1px solid #2f2f2f; padding: 8px 15px; width:210px; }
+.lang span { color: #fff; }
 .lang span a { font: 14px 'gotham_roundedlight',Times New Roman, Times,; color: #fff; margin-left: 13px; padding-right: 20px; background: url(../Images/arrow.png) no-repeat right; }
 
 .headertop-wrapper .srch { margin-left: 0px; padding: 4px 0px; }
 .srch input[type="submit"] { background: none; border: 0px; width: 35px; background: url(../Images/search.png) no-repeat 14px 5px; }
 .srch input[type="text"] {  background: none; border: 0px;width: 84%; box-shadow: none !important; color: #a0a0a0; margin-bottom: 0px;}
 
-.social-nav {width: 57%;  display: inline-block; border-left: 1px solid #708090; padding:3px 0px 3px 20px; height: 30px; }
+.social-nav {width: 57%;  display: inline-block; border-left: 1px solid #000; padding:3px 0px 3px 20px; height: 30px; }
 .social-nav a { height: 30px; width: 30px; display: inline-block; margin-right:3px; }
 
 .social-nav a.facebook { background: url(../Images/facebook-icon.png) no-repeat; }
@@ -198,7 +198,7 @@ p { font: 14px 'proxima_nova_rgregular',Times New Roman, Times, serif; color: #f
 
 .top-menu { margin-top: 45px; }
 .top-menu ul li { display: inline-block; }
-.top-menu ul li a { font-size: 14px; color: #a0a0a0; padding:0px 15px; border-right: 1px solid #a0a0a0; }
+.top-menu ul li a { font-size: 14px; color: #fff; padding:0px 15px; border-right: 1px solid #fff; }
 .top-menu ul li a.last { border-right: 0px; }
 .top-menu ul li a:hover { color: #fff; }
 
@@ -220,8 +220,8 @@ p { font: 14px 'proxima_nova_rgregular',Times New Roman, Times, serif; color: #f
 /****************************************************************************
 	Main Navigation
 ****************************************************************************/
-.nav-wrapper { background: url(../images/nav-bg-black.png) repeat-x; border-top: 1px solid #2f2f2f; }
-.nav-wrapper nav > ul > li { display: inline-block; background: url(../images/li-sprator.png) no-repeat right; position: relative; }
+.nav-wrapper { background: url(../Images/nav-bg-black.png) repeat-x; border-top: 1px solid #2f2f2f; }
+.nav-wrapper nav > ul > li { display: inline-block; background: url(../Images/li-sprator.png) no-repeat right; position: relative; }
 .nav-wrapper nav > ul > li.last { background: none; }
 .nav-wrapper nav > ul > li > a { font: 16px  'dinpromedium',Times New Roman, Times, sans-serif;text-transform: uppercase; padding:10px 22px; display: inline-block; serif; border-bottom: 2px solid rgba(255,255,255,.0); color: #f2f2f2;  }
 .nav-wrapper nav > ul > li > a:hover { border-bottom: 2px solid #017eba;  }
