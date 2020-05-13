@@ -83,7 +83,7 @@ require('db.php');
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-fw fa-folder"></i>
-          <span>Settings</span>
+          <span>Pages</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Login Screens:</h6>
@@ -97,7 +97,7 @@ require('db.php');
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="charts.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
       </li>
@@ -207,11 +207,11 @@ require('db.php');
           
               <?php
               // 2. Do a query
-$query  = "SELECT * FROM routline";
+$query  = "SELECT * FROM routeline";
 $result = mysqli_query($connection, $query);
 $row = mysqli_fetch_array($result);
 ?>
-              Routline Table</div>
+              Routeline Table</div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
