@@ -52,7 +52,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="#" class="sign-in" id="login-link">Sign Out</a>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="../images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -102,18 +102,18 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
+                                        <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="index2.php">Home 2</a></li>
+                                                <li><a href="index3.php">Home 3 </a></li>
                                             </ul>
                                         </li>
                                         
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                         	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
+                                                <li><a href="travel_grid.php">Travel Grid</a></li>
+                                                <li><a href="travel_list.php">Travel list</a></li>
+                                                <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Holidays</a></li>
@@ -132,12 +132,12 @@
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                         	<ul class="clearfix">
-                                                <li><a href="confirm.html">Confirmation</a></li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li  class="last"><a href="contact.html">Contact</a></li>
+                                        <li  class="last"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
 
@@ -303,8 +303,8 @@
                                         </ul>
                                         
                                         <div class="grid_btn">
-                                            <a href="travel_grid.html" class="grid"></a>
-                                            <a href="travel_list.html" class="list active"></a>
+                                            <a href="travel_grid.php" class="grid"></a>
+                                            <a href="travel_list.php" class="list active"></a>
                                         </div>
                                         <div class="clearfix"></div>
                                         <span class="border"></span>
@@ -337,7 +337,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -365,7 +365,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -393,7 +393,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -421,7 +421,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -449,7 +449,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -477,7 +477,7 @@
                                         </article>
                                         <div class="price">
                                             <h3>138$</h3>
-                                            <a href="travel_detail.html"></a>
+                                            <a href="travel_detail.php"></a>
                                         </div>
                                     </div>
 
@@ -509,7 +509,7 @@
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
@@ -577,20 +577,6 @@
                     </div>
                 </div>
                 <!-- Footer -->
-
-				<div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
-                
                 
                 <!-- Scripts -->
 				<script src="js/jquery-1.7.1.min.js"></script>

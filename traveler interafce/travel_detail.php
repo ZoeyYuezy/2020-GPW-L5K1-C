@@ -52,7 +52,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="#" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign Out</a>
                                 </div>
                             </div>
                         </div>
@@ -102,18 +102,17 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
+                                        <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="login.php">Home 2</a></li>
                                             </ul>
                                         </li>
                                         
-                                        <li><a href="travel_grid.html">Travel</a>
+                                        <li><a href="travel_grid.php">Travel</a>
                                         	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
+                                                <li><a href="travel_grid.php">Travel Grid</a></li>
+                                                <li><a href="travel_list.php">Travel list</a></li>
+                                                <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Holidays</a></li>
@@ -132,21 +131,21 @@
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
-                                        <li><a href="booking.html">Booking</a>
+                                        <li><a href="booking.php">Booking</a>
                                         	<ul class="clearfix">
-                                                <li><a href="confirm.html">Confirmation</a></li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li  class="last"><a href="contact.html">Contact</a></li>
+                                        <li  class="last"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
 
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
+                                                <li><a href="index.php">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
                                                 <li><a href="#">Holidays</a></li>
                                                 <li><a href="#">Flights</a> </li>
@@ -176,7 +175,7 @@
                 	<div class="container">
                     	<div class="row">
                         	<div class="span12">
-                            	<a href="">Home</a>
+                            	<a href="index.php">Home</a>
                                 <span class="crum">Detail</span>
                             </div>
                         </div>
@@ -335,7 +334,7 @@
                                         </div>
                                     </div>
 
-                                    <h3> need help booking <a href="#"></a></h3>
+                                    <h3> Need help booking <a href="booking.php"></a></h3>
                                     <div class="widget">
                                         <p>Pri ut minim fierent voluptatum, ea pro erat postea option</p>
                                         <p class="call">1-669-559-4378</p>
@@ -458,7 +457,7 @@
                                     <div id="tabs-3" class="tab clearfix" >
                                         <div class="detail">
                                             <div class="map">
-                                                <iframe width="100%" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Envato+Pty+Ltd,+13%2F2+Elizabeth+Street,+Melbourne+VIC,+Australia&amp;aq=0&amp;oq=envato&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=Envato+Pty+Ltd,+13%2F2+Elizabeth+Street,&amp;hnear=Melbourne+Victoria,+Australia&amp;t=p&amp;ll=-37.817209,144.961681&amp;spn=0.010849,0.04107&amp;z=15&amp;output=embed"></iframe>
+                                                <iframe width="100%" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://pixabay.com/illustrations/web-map-flat-design-pin-world-3120321/"></iframe>
                                             </div>
 
                                             <h2>Hotel Location</h2>
@@ -528,7 +527,7 @@
                                                         <div id="vcarousel">
                                                             <ul>
                                                                 <li>
-                                                                    <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                                                    <figure class="pull-left"><img src="../images/hotdeal-pic.png" alt="Pic"></figure>
                                                                     <article class=" clearfix">
                                                                         <div class="hot pull-left">
                                                                             <h5>Emma Thomson</h5>
@@ -538,7 +537,7 @@
                                                                     </article>
                                                                 </li>
                                                                 <li>
-                                                                    <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                                                    <figure class="pull-left"><img src="../images/hotdeal-pic.png" alt="Pic"></figure>
                                                                     <article class=" clearfix">
                                                                         <div class="hot pull-left">
                                                                             <h5>Emma Thomson</h5>
@@ -548,7 +547,7 @@
                                                                     </article>
                                                                 </li>
                                                                 <li>
-                                                                    <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                                                    <figure class="pull-left"><img src="../images/hotdeal-pic.png" alt="Pic"></figure>
                                                                     <article class=" clearfix">
                                                                         <div class="hot pull-left">
                                                                             <h5>Emma Thomson</h5>
@@ -558,7 +557,7 @@
                                                                     </article>
                                                                 </li>
                                                                 <li>
-                                                                    <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                                                    <figure class="pull-left"><img src="../images/hotdeal-pic.png" alt="Pic"></figure>
                                                                     <article class=" clearfix">
                                                                         <div class="hot pull-left">
                                                                             <h5>Emma Thomson</h5>
@@ -599,7 +598,7 @@
                             <div class="span3 f-widget copy-right">
                             	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<p>Designed by Group C</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
@@ -667,20 +666,6 @@
                     </div>
                 </div>
                 <!-- Footer -->
-
-				<div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
-                
                 
                 <!-- Scripts -->
 				<script src="js/jquery-1.7.1.min.js"></script>
