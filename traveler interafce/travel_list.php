@@ -19,7 +19,7 @@
                 <link rel="stylesheet" href="css/flexslider.css">
 
                 <!-- favicon -->
-				<link rel="shortcut icon" href="images/favicon.png">
+				<link rel="shortcut icon" href="Images/favicon.png">
 				
 				<!--[if lt IE 9]>
 						<script src="js/html5shiv.js"></script>
@@ -69,7 +69,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="../images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -507,7 +507,7 @@
                     	<div class="row">
                         	
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
+                            	<a href="#" class="f-logo"><img src="Images/logo.png" alt="Logo"></a>
                             	<p>© 2013 <a href="#">CBC</a>. All rights reserved</p>
                             	<p>Designed by Group C</p>
                             </div>
