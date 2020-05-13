@@ -5,7 +5,7 @@ require ('db.php');
 
 // 2. Do a query
 $query  = "SELECT initial_location, destination, date, price "; 
-$query .= "FROM routline";
+$query .= "FROM routeline";
 $result = mysqli_query($connection,$query);
 
 if (!$result) {
@@ -14,23 +14,7 @@ if (!$result) {
 
     
             
-// 3. use/show data
-while ($row = mysqli_fetch_array($result)) {
-    echo "<tr>";
-    echo "<td>" . $row["initial_location"] . "</td>";
-    echo "<td>" . $row["destination"] . "</td>";
-    echo "<td>" . $row["date"] . "</td>";
-    echo "<td>" . $row["price"] . "</td>";
-    echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
-    echo "</tr>";
-}
-    
-   
-// 4. free results
-mysqli_free_result($result);
 
-// 5. close db connection
-mysqli_close($connection);
 ?>
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
@@ -256,28 +240,20 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $row["initial_location"] . "</td>";
     echo "<td>" . $row["destination"] . "</td>";
-     echo "<td>" . $row["date"] . "</td>";
     echo "<td>" . $row["date"] . "</td>";
     echo "<td>" . $row["price"] . "</td>";
+    echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
+    echo "</tr>";
 }
     
-?>
-    
-</table>
-  </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>       
-    
-<?php
-
+   
 // 4. free results
 mysqli_free_result($result);
 
 // 5. close db connection
 mysqli_close($connection);
-
+    
+   
 ?>
             <!-- Scripts -->
 				<script src="js/jquery-1.7.1.min.js"></script>
