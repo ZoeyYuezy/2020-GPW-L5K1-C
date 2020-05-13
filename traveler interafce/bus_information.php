@@ -17,10 +17,10 @@ if (mysqli_connect_errno()) {
 }
 
 // 2. Do a query
-$query  = "SELECT bus_information.type, bus_information.number, routline.initial_location, routline.destination, routline.date, routline.price, driver.name "; 
+$query  = "SELECT bus_information.type, bus_information.number, routeline.initial_location, routeline.destination, routeline.date, routeline.price, driver.name "; 
 $query .= "FROM (bus_information ";
-$query .= "JOIN routline ";
-$query .= "ON bus_information.r_id = routline.id) ";
+$query .= "JOIN routeline ";
+$query .= "ON bus_information.r_id = routeline.id) ";
 $query .= "JOIN driver ";
 $query .= "ON bus_information.d_id = driver.d_id ";
 
@@ -162,7 +162,7 @@ if (!$result) {
                                                 <li><a href="#">Projection </a> </li>
                                             </ul>
                                         </li>
-                                        <li><a href="routline.php">Cars</a></li>
+                                        <li><a href="routeline.php">Cars</a></li>
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
@@ -190,7 +190,7 @@ if (!$result) {
                                                 <li><a href="#">Television </a> </li>
                                                 <li><a href="#">Smart Phone </a> </li>
                                                 <li><a href="#">Projection </a> </li>
-                                                <li><a href="routline.php">Cars</a></li>
+                                                <li><a href="routeline.php">Cars</a></li>
                                                 <li><a href="#">Vacations</a></li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>

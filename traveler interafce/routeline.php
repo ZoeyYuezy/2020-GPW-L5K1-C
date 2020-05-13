@@ -105,8 +105,8 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="login.php">Home 2</a></li>
+                                                
                                             </ul>
                                         </li>
                                         
@@ -194,8 +194,8 @@
 require ('db.php');
 
 // 2. Do a query
-$query  = "SELECT initial_location, destination, date, price "; 
-$query .= "FROM routline";
+$query  = "SELECT initial_location, destination, date, distance, price "; 
+$query .= "FROM routeline";
 $result = mysqli_query($connection,$query);
 
 if (!$result) {
@@ -209,7 +209,7 @@ if (!$result) {
                         <div class="row">
                         	<div class="span12">
                             	<div class="heading">
-                                	<h2>Car<span>Routlines</span></h2>
+                                	<h2>Car<span>Routelines</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +221,8 @@ if (!$result) {
      <td>Start Place</td>
      <td>End Place</td>
      <td>Date</td> 
-     <td>Price</td> 
+    <td>Distance</td>                
+     <td>Economy/Business Price</td> 
     
      </tr>
       
@@ -235,6 +236,7 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<td>" . $row["initial_location"] . "</td>";
     echo "<td>" . $row["destination"] . "</td>";
     echo "<td>" . $row["date"] . "</td>";
+    echo "<td>" . $row["distance"] . "</td>";
     echo "<td>" . $row["price"] . "</td>";
     echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
     echo "</tr>";
@@ -334,19 +336,6 @@ mysqli_close($connection);
                     </div>
                 </div>
                 <!-- Footer -->
-				
-                <div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
 
                 <!-- Scripts -->
 				<script src="js/jquery-1.7.1.min.js"></script>
