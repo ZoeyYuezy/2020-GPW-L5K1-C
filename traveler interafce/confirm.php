@@ -20,7 +20,7 @@
                 <link rel="stylesheet" href="css/flexslider.css">
 
                <!-- favicon -->
-				<link rel="shortcut icon" href="images/favicon.png">
+				<link rel="shortcut icon" href="Images/favicon.png">
 				
 				<!--[if lt IE 9]>
 						<script src="js/html5shiv.js"></script>
@@ -53,7 +53,7 @@
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="login.php" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign Out</a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -105,8 +105,7 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="login.php">Home 2</a></li>
                                             </ul>
                                         </li>
                                        
