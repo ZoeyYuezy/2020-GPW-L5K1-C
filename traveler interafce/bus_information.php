@@ -87,7 +87,7 @@ if (!$result) {
                                         <a href="#" class="google"></a>
                                         <a href="#" class="rss"></a>
                                     </div>
-                                    <a href="login.php" class="sign-in" id="login-link">Sign in</a>
+                                    <a href="login.php" class="sign-in" id="login-link">Sign Out</a>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ if (!$result) {
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="index.php"><img src="Images/logo.png" alt="Logo"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
@@ -139,8 +139,7 @@ if (!$result) {
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
+                                                <li><a href="login.php">Home 2</a></li>
                                             </ul>
                                         </li>
                                         
@@ -163,7 +162,7 @@ if (!$result) {
                                                 <li><a href="#">Projection </a> </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
+                                        <li><a href="routline.php">Cars</a></li>
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
@@ -181,7 +180,7 @@ if (!$result) {
                                         <li class="open">
                                             <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
+                                                <li><a href="index.php">Home </a></li>
                                                 <li><a href="#">Hotels</a></li>
                                                 <li><a href="#">Holidays</a></li>
                                                 <li><a href="#">Flights</a> </li>
@@ -191,7 +190,7 @@ if (!$result) {
                                                 <li><a href="#">Television </a> </li>
                                                 <li><a href="#">Smart Phone </a> </li>
                                                 <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
+                                                <li><a href="routline.php">Cars</a></li>
                                                 <li><a href="#">Vacations</a></li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
