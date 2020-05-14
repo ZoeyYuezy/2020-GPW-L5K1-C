@@ -1,3 +1,46 @@
+<?php
+
+require('logincheck.php');
+require('db.php');
+
+
+if ($_POST['search']) {
+    $type  = $_POST['type'];
+    $number = $_POST['number'];
+    $initial_location = $_POST['initial_location'];
+    $destination = $_POST['destination'];
+    $date= $_POST['date'];
+    $price= $_POST['price'];
+    $name= $_POST['name'];
+    
+    // 2. Do a query
+    $query  = "SELECT bus_information.type, bus_information.number, routeline.initial_location, routeline.destination, routeline.date, routeline.price, driver.name "; 
+    $query .= "FROM (bus_information ";
+    $query .= "JOIN routeline ";
+    $query .= "ON bus_information.r_id = routeline.id) ";
+    $query .= "JOIN driver ";
+    $query .= "ON bus_information.d_id = driver.d_id "; 
+    
+    $query .= " WHERE type = '$type', "; 
+    $query .= "number = '$number', ";
+    $query .= "initial_location = '$initial_location', ";
+    $query .= "destination = '$destination', ";
+    $query .= "date = '$date', ";
+    $query .= "price = '$price', ";
+    $query .= "name = '$name' ";
+    
+    
+$result = mysqli_query($connection, $query);
+}
+
+
+echo $query;
+// 3. process data
+$row = mysqli_fetch_array($result);
+
+?>
+
+
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
@@ -196,11 +239,12 @@
                     
                     
                     <!-- Reservation box -->
+                    
                     <div id="accordion">
 
                       <h3> <span class="flight">Bus</span> <a href="bus_information.php"></a> </h3>
                       <div class="detail">
-                         <form action="bus_information.php" method="post">
+                         <form method="post">
                             <div class="trip">
                                 <input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
                                 <input type="radio" name="trip" value="onw-way"><span>One-way</span>
@@ -209,11 +253,11 @@
                             <div class="location clearfix">
                                 <div class="pull-left">
                                     <label>Your Locatıon</label>
-                                    <input type="input" name="Location" value="England">
+                                    <input type="input" name="initial_location" value="<?php echo $row["cu_name"]; ?>">
                                 </div>
                                 <div class="pull-right">
                                     <label class="dst">Destination</label>
-                                    <input type="text" name="Destination" value="Turkey">
+                                    <input type="text" name="destination" value="<?php echo $row["destination"]; ?>">
                                 </div>
                             </div>
 
@@ -223,11 +267,11 @@
                                     <div class="date clearfix">
                                         <div class="Depart-Date">
                                             <label>Depart Date</label>
-                                            <input type="text" name="Location" value="30.01.2013" id="datepicker">
+                                            <input type="text" name="date" "<?php echo $row["date"]; ?>" id="datepicker">
                                         </div>
                                         <div>
                                             <label>Return Date</label>
-                                            <input type="text" name="Location" value="30.01.2013" id="clender">
+                                            <input type="text" name="date" value="<?php echo $row["date"]; ?>" id="clender">
                                         </div>
                                     </div>
                                 </div>
@@ -250,7 +294,7 @@
                             </div>
 
                             <div class="search">
-                                <input type="submit" name="search" value="SEARCH" >
+                                <input type="submit" name="submit" value="SEARCH" >
                             </div>
                         </form>
                       </div>
@@ -604,4 +648,9 @@
                 <script src="js/custom.js"></script>		
 		</body>
 </html>
+<?php
 
+// 5. close db connection
+mysqli_close($connection);
+
+?>

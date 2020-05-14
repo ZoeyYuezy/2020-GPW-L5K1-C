@@ -248,6 +248,7 @@ if (!$result) {
                 <th>Date</th>
                 <th>Price</th>
                 <th>Driver</th>
+                <th>Book Now</th>
                 </tr>    
             </thead>
 
@@ -263,6 +264,7 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<td>" . $row["date"] . "</td>";
     echo "<td>" . $row["price"] . "</td>";
     echo "<td>" . $row["name"] . "</td>";
+     echo"<td><a href=booking.php>Book now</a></td>";
 }
     
 ?>
