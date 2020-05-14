@@ -244,7 +244,7 @@ $row = mysqli_fetch_array($result);
 
                       <h3> <span class="flight">Bus</span> <a href="bus_information.php"></a> </h3>
                       <div class="detail">
-                         <form method="post">
+                         <form action="bus_information.php" method="post">
                             <div class="trip">
                                 <input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
                                 <input type="radio" name="trip" value="onw-way"><span>One-way</span>
@@ -604,20 +604,6 @@ $row = mysqli_fetch_array($result);
                     </div>
                 </div>
                 <!-- Footer -->
-                
-                <div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="group c@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
-
 
 
                 <!-- Scripts -->
