@@ -4,7 +4,7 @@
 require ('db.php');
 
 // 2. Do a query
-$query  = "SELECT initial_location, destination, date, price "; 
+$query  = "SELECT initial_location, destination, date, distance, price "; 
 $query .= "FROM routeline";
 $result = mysqli_query($connection,$query);
 
@@ -147,7 +147,7 @@ if (!$result) {
                                                 <li><a href="#">Projection </a> </li>
                                             </ul>
                                         </li>
-                                        <li><a href="routline.php">Cars</a></li>
+                                        <li><a href="routeline.php">Cars</a></li>
                                         <li><a href="#">Vacations</a></li>
                                         <li><a href="#">Guide Book</a></li>
                                         <li><a href="#">Hot Deal</a></li>
@@ -175,7 +175,7 @@ if (!$result) {
                                                 <li><a href="#">Television </a> </li>
                                                 <li><a href="#">Smart Phone </a> </li>
                                                 <li><a href="#">Projection </a> </li>
-                                                <li><a href="routline.php">Cars</a></li>
+                                                <li><a href="routeline.php">Cars</a></li>
                                                 <li><a href="#">Vacations</a></li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
@@ -241,6 +241,7 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<td>" . $row["initial_location"] . "</td>";
     echo "<td>" . $row["destination"] . "</td>";
     echo "<td>" . $row["date"] . "</td>";
+    echo "<td>" . $row["distance"] . "</td>";
     echo "<td>" . $row["price"] . "</td>";
     echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
     echo "</tr>";
