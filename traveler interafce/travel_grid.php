@@ -321,8 +321,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue beach</h3>
-                                            <h4>thailand</h4>
+                                            <h3>Cheng Du</h3>
+                                            <h4>JiuZhaigou</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -345,8 +345,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue heaven</h3>
-                                            <h4>ITALY</h4>
+                                            <h3>Cheng Du</h3>
+                                            <h4>Mei Shan</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -369,8 +369,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue heaven</h3>
-                                            <h4>Greece</h4>
+                                            <h3>Cheng Du</h3>
+                                            <h4>Lei Shan</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -393,8 +393,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue beach</h3>
-                                            <h4>thailand</h4>
+                                            <h3>Suiling</h3>
+                                            <h4>Ya an</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -417,8 +417,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue heaven</h3>
-                                            <h4>Italy</h4>
+                                            <h3>Guangan</h3>
+                                            <h4>Deyang</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -441,8 +441,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue heaven</h3>
-                                            <h4>Greece</h4>
+                                            <h3>Cheng Du</h3>
+                                            <h4>Mian Yang</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
@@ -465,8 +465,8 @@
                                             </div>
                                         </figure>
                                         <article>
-                                            <h3>Blue beach</h3>
-                                            <h4>thailand</h4>
+                                            <h3>Mian Yang</h3>
+                                            <h4>Zi Yang</h4>
                                             <p><a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
