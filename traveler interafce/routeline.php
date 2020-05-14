@@ -230,7 +230,8 @@ if (!$result) {
                 <th>End Place</th>
                  <th>Date</th>
                 <th>Distance</th>
-                <th>Price</th>   
+                <th>Price</th>  
+             <th>Cheak</th>  
             </thead>
 
 <?php
