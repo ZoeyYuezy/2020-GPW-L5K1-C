@@ -10,9 +10,8 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>CBC</title>
-                <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
-
+				<title>Confirm</title>
+              
             <!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
                 <link rel="stylesheet" href="css/bootstrap.css">
@@ -95,7 +94,7 @@
                 </div>
                 <!-- HEADER -->
 
-                <!-- Main Navigation -->
+                  <!-- Main Navigation -->
                 <div class="nav-wrapper">
                 	<div class="container">
                     	<div class="row">
@@ -106,34 +105,29 @@
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
                                                 <li><a href="login.php">Home 2</a></li>
+                                             
                                             </ul>
                                         </li>
-                                       
                                         <li><a href="travel_grid.php">Travel</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
-                                            <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                            <a href="food.php">Food</a>
+                                          <ul class="clearfix">
+                                                <li><a href="confirm1.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
+                                      <li><a href="#">Vacations</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -144,20 +138,12 @@
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
                                                 <li><a href="index.php">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
@@ -215,11 +201,11 @@
 
                                                 <div class="total">
                                                     <p>
-                                                        <label>Grand Total:</label>
-                                                        <span>138<small>$</small></span>
+                                                        <label>Items Total:</label>
+                                                        <span>435<small>$</small></span>
                                                     </p>
-                                                    <a href="#">reservation</a>
-                                                    <a href="#">print recept</a>
+                                                    <a href="confirm.php">reservation</a>
+                                                    <a href="contact.php">print recept</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -232,8 +218,8 @@
                                                     <h2>Ticket Sammary</h2>
 
                                                     <div class="top">
-                                                        <h2>Allen Ticket</h2>
-                                                        <h3>Chengdu-Jiuzaigou</h3>
+                                                        <h2>Ticket/Food</h2>
+                                                        <h3>Information Confirm</h3>
                                                         <div class="stars">
                                                             <a href="#" class="active"></a>
                                                             <a href="#" class="active"></a>
@@ -246,17 +232,17 @@
                                                     <h3>Summary</h3>
                                                     <ul>
                                                         <li><span>Position:</span>01A</li>
-                                                        <li><span>Price:</span>138$</li>
-                                                        <li><span>Start Date:</span>15 / Feb / 2013</li>
-                                                        <li><span>Arrive Date:</span>16 / Feb / 2013</li>
+                                                        <li><span>Price:</span>410$</li>
+                                                        <li><span>Start Date:</span>15 / May / 2020</li>
+                                                        <li><span>Arrive Date:</span>16 / May / 2020</li>
                                                     </ul>
 
-                                                    <h3>Extral Charges:Hotel</h3>
+                                                    <h3>Food Charges</h3>
                                                     <ul>
-                                                        <li><span>2 Night:</span>Single Room</li>
-                                                        <li><span>Fees:</span>200$</li>
-                                                        <li><span>Date:</span>15 / Feb / 2113</li>
-                                                        <li><span>Total:</span>338$</li>
+                                                        <li><span>Food Name:</span>Curry Rice</li>
+                                                        <li><span>Fees:</span>$25</li>
+                                                        <li><span>Date:</span>15 / May / 2020</li>
+                                                        <li><span>Total:</span>435$</li>
                                                     </ul>
                                                 </div>
                                             </div>
