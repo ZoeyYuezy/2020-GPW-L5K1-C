@@ -4,7 +4,7 @@
 require ('db.php');
 
 // 2. Do a query
-$query  = "SELECT initial_location, destination, date, distance, price "; 
+$query  = "SELECT initial_location, destination, date, distance, price, capacity "; 
 $query .= "FROM routeline";
 $result = mysqli_query($connection,$query);
 
@@ -114,7 +114,7 @@ if (!$result) {
                 </div>
                 <!-- HEADER -->
 
-                <!-- Main Navigation -->
+                 <!-- Main Navigation -->
                 <div class="nav-wrapper">
                 	<div class="container">
                     	<div class="row">
@@ -125,34 +125,29 @@ if (!$result) {
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
                                                 <li><a href="login.php">Home 2</a></li>
+                                             
                                             </ul>
                                         </li>
-                                        
                                         <li><a href="travel_grid.php">Travel</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
-                                            <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                            <a href="food.php">Food</a>
+                                          <ul class="clearfix">
+                                                <li><a href="confirm1.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="routeline.php">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
+                                      <li><a href="#">Vacations</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -166,17 +161,9 @@ if (!$result) {
                                             <a href="index.php">HOME</a>
                                             <ul>
                                                 <li><a href="index.php">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="routeline.php">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
@@ -185,7 +172,6 @@ if (!$result) {
                                         </li>
                                     </ul>
                                 </div>
-                            
                             </div>
                         </div>
                     </div>
@@ -230,7 +216,8 @@ if (!$result) {
                 <th>End Place</th>
                  <th>Date</th>
                 <th>Distance</th>
-                <th>Price</th>  
+                <th>Price</th>
+                <th>Capacity</th>
              <th>Cheak</th>  
             </thead>
 
@@ -244,6 +231,7 @@ while ($row = mysqli_fetch_array($result)) {
     echo "<td>" . $row["date"] . "</td>";
     echo "<td>" . $row["distance"] . "</td>";
     echo "<td>" . $row["price"] . "</td>";
+      echo "<td>" . $row["capacity"] . "</td>";
     echo "<td><a href='rd.php?id=" . $row["id"] ."'>Cheak</a></td>";
     echo "</tr>";
 }
