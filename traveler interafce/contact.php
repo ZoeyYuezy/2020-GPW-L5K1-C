@@ -10,9 +10,8 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>CBC</title>
-                <link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300,400,600,800,700' rel='stylesheet' type='text/css'>
-
+				<title>Contact</title>
+                
             <!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
                 <link rel="stylesheet" href="css/bootstrap.css">
@@ -95,7 +94,7 @@
                 </div>
                 <!-- HEADER -->
 
-                <!-- Main Navigation -->
+                  <!-- Main Navigation -->
                 <div class="nav-wrapper">
                 	<div class="container">
                     	<div class="row">
@@ -105,35 +104,30 @@
                                     <ul>
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
-                                                <li><a href="index2.php">Home 2</a></li>
+                                                <li><a href="login.php">Home 2</a></li>
+                                             
                                             </ul>
                                         </li>
-                                        
                                         <li><a href="travel_grid.php">Travel</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
-                                            <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                            <a href="food.php">Food</a>
+                                          <ul class="clearfix">
+                                                <li><a href="confirm1.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
+                                      <li><a href="#">Vacations</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -146,18 +140,10 @@
                                         <li class="open">
                                             <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="index.php">Home </a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
