@@ -95,7 +95,7 @@
                 </div>
                 <!-- HEADER -->
 
-                <!-- Main Navigation -->
+                  <!-- Main Navigation -->
                 <div class="nav-wrapper">
                 	<div class="container">
                     	<div class="row">
@@ -106,34 +106,29 @@
                                         <li><a href="index.php">Home </a>
                                         	<ul class="clearfix">
                                                 <li><a href="login.php">Home 2</a></li>
+                                             
                                             </ul>
                                         </li>
-                                        
                                         <li><a href="travel_grid.php">Travel</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="travel_grid.php">Travel Grid</a></li>
                                                 <li><a href="travel_list.php">Travel list</a></li>
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
-                                            <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                            <a href="food.php">Food</a>
+                                          <ul class="clearfix">
+                                                <li><a href="confirm1.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
+                                      <li><a href="#">Vacations</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
-                                        	<ul class="clearfix">
+                                       	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -147,17 +142,9 @@
                                             <a href="index.php">HOME</a>
                                             <ul>
                                                 <li><a href="index.php">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="routeline.php">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
@@ -166,7 +153,6 @@
                                         </li>
                                     </ul>
                                 </div>
-                            
                             </div>
                         </div>
                     </div>
@@ -193,8 +179,8 @@
                         <div class="row">
                             <div class="span12 booking clearfix">
                                 <div class="top">
-                                    <h2>Ticket</h2>
-                                    <h3>Chengdu-Yaan</h3>
+                                    <h2>Ticket and Food</h2>
+                                    <h3>Booking Information</h3>
                                     <div class="stars">
                                         <a href="#" class="active"></a>
                                         <a href="#" class="active"></a>
@@ -283,17 +269,17 @@
                                                         <ul>
                                                            <li><span>Type:</span>Business</li>
                                                             <li><span>Position:</span>01A</li>
-                                                            <li><span>Price:</span>138$</li>
-                                                            <li><span>Start Date:</span>15 / Feb / 2013</li>
-                                                            <li><span>Arrive Date:</span>16 / Feb / 2013</li>
+                                                            <li><span>Price:</span>$410</li>
+                                                            <li><span>Start Date:</span>15 / May / 2020</li>
+                                                            <li><span>Arrive Date:</span>16 / May / 2020</li>
                                                         </ul>
 
-                                                        <h3>Hotel Charges</h3>
+                                                        <h3>Food Charges</h3>
                                                         <ul>
-                                                            <li><span>2 Night:</span>Single Room</li>
-                                                            <li><span>Price:</span>200$</li>
-                                                            <li><span>Date:</span>15 / Feb / 2113</li>
-                                                            <li><span>Total:</span>338$</li>
+                                                            <li><span>Food Name:</span>Curry Rice</li>
+                                                            <li><span>Price:</span>$25</li>
+                                                            <li><span>Date:</span>15 / May/ 2020</li>
+                                                            <li><span>Total:</span>$435</li>
                                                         </ul>
                                                     </div>
                                                     <h3>Accept and cirm</h3>
@@ -301,8 +287,8 @@
                                                         <input type="checkbox"/>
                                                         <p>I agree to theconditions.</p>
                                                         <div class="clearfix"></div>
-                                                        <label>Grand Total:</label>
-                                                        <span>338<small>$</small></span>
+                                                        <label>Items Total:</label>
+                                                        <span>435<small>$</small></span>
                                                         <div class="clearfix"></div>
                                                         <input type="submit" href="#" data-toggle="modal" data-target="#logoutModal" value="book now"/>
                                                     </form>
@@ -380,7 +366,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Select "Commit" below if you ensure to buy this ticket.</div>
+        <div class="modal-body">Select "Commit" below if you ensure to buy this ticket/food.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <a class="btn btn-primary" href="confirm.php">Commit</a>
