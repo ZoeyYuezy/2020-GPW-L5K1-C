@@ -158,22 +158,17 @@ $row = mysqli_fetch_array($result);
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                      <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
+                                            <a href="food.php">Food</a>
                                           <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                      <li><a href="routeline.php">Cars</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
                                       <li><a href="#">Vacations</a></li>
-                                      <li><a href="#">Guide Book</a></li>
-                                      <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
                                        	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
@@ -186,20 +181,12 @@ $row = mysqli_fetch_array($result);
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="index.php">Home </a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
@@ -220,18 +207,18 @@ $row = mysqli_fetch_array($result);
                         <li>
                           <img src="Images/bus.png" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>USA</h3>
-                            <h2>Chicago Night street</h2>
-                           	<span>$ 2.400</span>
+                            <h3>Jiuzaigou</h3>
+                            <h2>Ruoergai</h2>
+                           	<span>$ 200</span>
                           	<a href="#"></a> 	
                           </div>
                         </li>
                         <li>
                           <img src="Images/bus.png" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>Brazil</h3>
-                            <h2>Brazil Night City Beach</h2>
-                           	<span>$ 1.400</span>
+                            <h3>Chengdu</h3>
+                            <h2>Qingchengshan</h2>
+                           	<span>$ 400</span>
                           	<a href="#"></a> 	
                           </div>
                         </li>
@@ -282,12 +269,8 @@ $row = mysqli_fetch_array($result);
                                             <input type="text" name="Location" value="1" id="spinner">
                                         </div>
                                         <div class="ad">
-                                            <label>Children</label>
-                                            <input type="text" name="Location" value="1" id="spinner-two">
-                                        </div>
-                                        <div>
-                                            <label>Senior</label>
-                                            <input type="text" name="Location" value="1" id="spinner-three">
+                                            <label>Type</label>
+                                            <input type="text" name="Location" value="" id="spinner-two">
                                         </div>
                                     </div>
                                 </div>
@@ -359,8 +342,8 @@ $row = mysqli_fetch_array($result);
                                 		</div>
                                     </figure>
                                     <article>
-                                    	<h3>Blue beach</h3>
-                                        <h4>thailand</h4>
+                                    	<h3>Warterfall</h3>
+                                        <h4>Yaan</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
