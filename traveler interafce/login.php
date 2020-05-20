@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['login_level'] = $row['level'];
             
             if ($_SESSION['login_level'] == 1) {
-                header('location: index.php');
+                header('location: book/index.php');
             } else if ($_SESSION['login_level'] == 2) {
                 header('location: index2.php');
             }

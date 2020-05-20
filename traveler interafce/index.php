@@ -1,3 +1,46 @@
+<?php
+
+require('logincheck.php');
+require('db.php');
+
+
+if ($_POST['search']) {
+    $type  = $_POST['type'];
+    $number = $_POST['number'];
+    $initial_location = $_POST['initial_location'];
+    $destination = $_POST['destination'];
+    $date= $_POST['date'];
+    $price= $_POST['price'];
+    $name= $_POST['name'];
+    
+    // 2. Do a query
+    $query  = "SELECT bus_information.type, bus_information.number, routeline.initial_location, routeline.destination, routeline.date, routeline.price, driver.name "; 
+    $query .= "FROM (bus_information ";
+    $query .= "JOIN routeline ";
+    $query .= "ON bus_information.r_id = routeline.id) ";
+    $query .= "JOIN driver ";
+    $query .= "ON bus_information.d_id = driver.d_id "; 
+    
+    $query .= " WHERE type = '$type', "; 
+    $query .= "number = '$number', ";
+    $query .= "initial_location = '$initial_location', ";
+    $query .= "destination = '$destination', ";
+    $query .= "date = '$date', ";
+    $query .= "price = '$price', ";
+    $query .= "name = '$name' ";
+    
+    
+$result = mysqli_query($connection, $query);
+}
+
+
+echo $query;
+// 3. process data
+$row = mysqli_fetch_array($result);
+
+?>
+
+
 <!doctype html>
 <!--[if IE 7]>    <html class="ie7" > <![endif]-->
 <!--[if IE 8]>    <html class="ie8" > <![endif]-->
@@ -115,22 +158,17 @@
                                                 <li><a href="travel_detail.php">Travel Detail</a></li>
                                             </ul>
                                         </li>
-                                      <li><a href="#">Holidays</a></li>
+                        
                                         <li>
-                                            <a href="#">Flights</a>
+                                            <a href="food.php">Food</a>
                                           <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                                <li><a href="confirm.php">Confirmation</a></li>
                                             </ul>
                                         </li>
-                                      <li><a href="routline.php">Cars</a></li>
+                                      <li><a href="routeline.php">Routeline</a></li>
                                       <li><a href="#">Vacations</a></li>
-                                      <li><a href="#">Guide Book</a></li>
-                                      <li><a href="#">Hot Deal</a></li>
+                                      <li><a href="#">Guidebook</a></li>
+                                      <li><a href="#">Hot deal</a></li>
                                         <li><a href="booking.php">Booking</a>
                                        	  <ul class="clearfix">
                                                 <li><a href="confirm.php">Confirmation</a></li>
@@ -143,20 +181,12 @@
                                 <div class="responsive_nav">
                                     <ul>
                                         <li class="open">
-                                            <a href="#">HOME</a>
+                                            <a href="index.php">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
+                                                <li><a href="index.php">Home </a></li>
+                                                <li><a href="routeline.php">Routeline</a></li>
+                                                <li><a href="booking.php">Booking</a></li>
+                                                <li><a href="confirm.php">Confirmation</a> </li>
                                                 <li><a href="#">Guide Book</a></li>
                                                 <li><a href="#">Hot Deal</a></li>
                                                 <li><a href="#">Cruise</a></li>
@@ -177,18 +207,18 @@
                         <li>
                           <img src="Images/bus.png" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>USA</h3>
-                            <h2>Chicago Night street</h2>
-                           	<span>$ 2.400</span>
+                            <h3>Jiuzaigou</h3>
+                            <h2>Ruoergai</h2>
+                           	<span>$ 200</span>
                           	<a href="#"></a> 	
                           </div>
                         </li>
                         <li>
                           <img src="Images/bus.png" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>Brazil</h3>
-                            <h2>Brazil Night City Beach</h2>
-                           	<span>$ 1.400</span>
+                            <h3>Chengdu</h3>
+                            <h2>Qingchengshan</h2>
+                           	<span>$ 400</span>
                           	<a href="#"></a> 	
                           </div>
                         </li>
@@ -196,6 +226,7 @@
                     
                     
                     <!-- Reservation box -->
+                    
                     <div id="accordion">
 
                       <h3> <span class="flight">Bus</span> <a href="bus_information.php"></a> </h3>
@@ -209,11 +240,11 @@
                             <div class="location clearfix">
                                 <div class="pull-left">
                                     <label>Your Locatıon</label>
-                                    <input type="input" name="Location" value="England">
+                                    <input type="input" name="initial_location" value="<?php echo $row["cu_name"]; ?>">
                                 </div>
                                 <div class="pull-right">
                                     <label class="dst">Destination</label>
-                                    <input type="text" name="Destination" value="Turkey">
+                                    <input type="text" name="destination" value="<?php echo $row["destination"]; ?>">
                                 </div>
                             </div>
 
@@ -223,11 +254,11 @@
                                     <div class="date clearfix">
                                         <div class="Depart-Date">
                                             <label>Depart Date</label>
-                                            <input type="text" name="Location" value="30.01.2013" id="datepicker">
+                                            <input type="text" name="date" "<?php echo $row["date"]; ?>" id="datepicker">
                                         </div>
                                         <div>
                                             <label>Return Date</label>
-                                            <input type="text" name="Location" value="30.01.2013" id="clender">
+                                            <input type="text" name="date" value="<?php echo $row["date"]; ?>" id="clender">
                                         </div>
                                     </div>
                                 </div>
@@ -238,19 +269,15 @@
                                             <input type="text" name="Location" value="1" id="spinner">
                                         </div>
                                         <div class="ad">
-                                            <label>Children</label>
-                                            <input type="text" name="Location" value="1" id="spinner-two">
-                                        </div>
-                                        <div>
-                                            <label>Senior</label>
-                                            <input type="text" name="Location" value="1" id="spinner-three">
+                                            <label>Type</label>
+                                            <input type="text" name="Location" value="" id="spinner-two">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="search">
-                                <input type="submit" name="search" value="SEARCH" >
+                                <input type="submit" name="submit" value="SEARCH" >
                             </div>
                         </form>
                       </div>
@@ -315,8 +342,8 @@
                                 		</div>
                                     </figure>
                                     <article>
-                                    	<h3>Blue beach</h3>
-                                        <h4>thailand</h4>
+                                    	<h3>Warterfall</h3>
+                                        <h4>Yaan</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
@@ -560,20 +587,6 @@
                     </div>
                 </div>
                 <!-- Footer -->
-                
-                <div class="login-popup-wrapper">
-                    <div id="login-popup">
-                    	<h2>login Panel</h2>
-                        <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="group c@gmail.com" />
-                            <input type="text" value="" id="password" placeholder="Password" />
-                            
-                            <input type="submit" value="sıgn ın" id="login-button"/>
-                        </form>
-                        <a href="#" class="close">Close</a>
-                    </div>
-                </div>
-
 
 
                 <!-- Scripts -->
@@ -604,4 +617,9 @@
                 <script src="js/custom.js"></script>		
 		</body>
 </html>
+<?php
 
+// 5. close db connection
+mysqli_close($connection);
+
+?>
