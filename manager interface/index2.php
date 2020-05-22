@@ -61,7 +61,7 @@ require('db.php');
           <a class="dropdown-item" href="register.html">Sign up</a>
             <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="blank.html">Blank Page</a>
+          <a class="dropdown-item" href="memo.php">Memo</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="login.php" data-toggle="modal" data-target="#logoutModal">Log out</a>
         </div>
@@ -86,14 +86,14 @@ require('db.php');
           <span>Pages</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-          <h6 class="dropdown-header">Login Screens:</h6>
+          <h6 class="dropdown-header">Function:</h6>
           <a class="dropdown-item" href="login.php">Login</a>
           <a class="dropdown-item" href="register.html">Register</a>
           <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Other Pages:</h6>
-          <a class="dropdown-item" href="404.html">404 Page</a>
-          <a class="dropdown-item" href="blank.html">Blank Page</a>
+    
+          <a class="dropdown-item" href="memo.php">Memo Page</a>
         </div>
       </li>
       <li class="nav-item">
@@ -102,10 +102,29 @@ require('db.php');
           <span>Charts</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.php">
+        <a class="nav-link" href="sale.php">
           <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+          <span>Sales Volume Tables</span></a>
       </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="ticket.php">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Tickets information Tables</span></a>
+      </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="bus.php">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Bus information Tables</span></a>
+      </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="account.php">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Account Management</span></a>
+      </li>
+        
     </ul>
 
     <div id="content-wrapper">
@@ -192,64 +211,18 @@ require('db.php');
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-chart-area"></i>
+
+            CBC sales information (daily)</div>
+
             Area Chart of Sales</div>
+
           <div class="card-body">
             <canvas id="myAreaChart" width="100%" height="30"></canvas>
           </div>
           <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
         </div>
 
-        <!-- DataTables Example -->
-        <div class="card mb-3">
-          <div class="card-header">
-            <i class="fas fa-table"></i>
-           
-          
-              <?php
-              // 2. Do a query
-$query  = "SELECT * FROM routeline";
-$result = mysqli_query($connection, $query);
-$row = mysqli_fetch_array($result);
-?>
-              Routeline Table</div>
-          <div class="card-body">
-            <div class="table-responsive">
-              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead>
-                       <tr>
-                           <th>id</th>
-                           <th>initial location</th>
-                           <th>destination</th>
-                           <th>date</th>
-                           <th>price</th>
-                           
-                       </tr>
-                     </thead>
-                  
-                  <?php
-    
-//3. use/show data, as row of the table (PHP& HTML mixed) -->
-while($row = mysqli_fetch_array($result)){
-    echo"<tr>";
-    echo"<td>" . $row["id"] . "</td>";
-    echo"<td>" . $row["initial_location"] . "</td>";
-    echo"<td>" . $row["destination"] . "</td>";
-    echo"<td>" . $row["date"] . "</td>";
-    echo"<td>" . $row["price"] . "</td>";
-    
-    echo"</tr>";
-}
-
-    
-?>  
-                  
-              </table>
-            </div>
-          </div>
-          <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-        </div>
-
-      </div>
+  
       <!-- /.container-fluid -->
 
       <!-- Sticky Footer -->
