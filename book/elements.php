@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello World!</title>
+    <title>Hello CBC!</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -28,7 +28,7 @@
                 <div class="row align-items-center">
                     <div class="col-10 col-lg-4">
                         <h1 class="site-branding flex">
-                            <a href="#">SUNFEST</a>
+                            <a href="index.php">Chengdu Bus Company</a>
                         </h1>
                     </div>
 
@@ -63,7 +63,7 @@
                         <h2 class="entry-title">Elements</h2>
 
                         <ul class="breadcrumbs flex align-items-center">
-                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="index.php">HOME</a></li>
                             <li>Elements</li>
                         </ul><!-- .breadcrumbs -->
                     </div><!-- .entry-header -->
