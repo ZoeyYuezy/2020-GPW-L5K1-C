@@ -131,7 +131,7 @@ require('db.php');
                                         </div><!-- entry-title -->
 
                                         <div class="entry-content">
-                                            <p>Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum. </p>
+                                            <p>Located in Nanping County, Aba Tibetan-Qiang Autonomous Prefecture, Jiuzhaigou Ravine stretches 80 kilometer in one direction and takes up an area of more than 60,000 hectares.</p>
                                         </div><!-- entry-content -->
 
                                         <div class="box-link">
