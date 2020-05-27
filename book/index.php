@@ -295,7 +295,7 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                     <div class="col-12">
                         <div class="entry-title">
                             <p>JUST THE BEST</p>
-                            <h2>Our Next Events</h2>
+                            <h2>Local Food Party</h2>
                         </div><!-- entry-title -->
                     </div><!-- col-12 -->
                 </div><!-- row -->
@@ -310,8 +310,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-1.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                        <h3>Welcoming Hot Pot Party</h3>
+                                        <p>Chengdu, Chunxi Road</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -323,8 +323,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-2.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                        <h3>Welcoming Chuanchuan Party </h3>
+                                        <p>Chendu, Erxianqiao</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -336,8 +336,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-3.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                        <h3>Welcoming Ice Powder Party </h3>
+                                        <p>Chengdu, Chenghua</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -349,8 +349,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-1.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                        <h3>Welcoming Hot Pot Party</h3>
+                                        <p>Chengdu, Chunxi Road</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -362,8 +362,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-2.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                       <h3>Welcoming Chuanchuan Party </h3>
+                                        <p>Chendu, Erxianqiao</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -375,8 +375,8 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                                     <img src="images/next-event-3.jpg" alt="">
 
                                     <a href="#" class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
+                                      <h3>Welcoming Ice Powder Party </h3>
+                                        <p>Chengdu, Chenghua</p>
                                     </a>
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
@@ -395,7 +395,7 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                 <div class="header">
                     <div class="entry-title">
                         <p>JUST THE BEST</p>
-                        <h2>Our Last News</h2>
+                        <h2>Local Travel</h2>
                     </div><!-- entry-title -->
                 </div><!-- header -->
 
@@ -407,26 +407,23 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                             </figure><!-- featured-image -->
 
                             <div class="box-link-date">
-                                <a href="#">03.12.18</a>
+                                <a href="#">03.12.19</a>
                             </div>
 
                             <div class="content-wrapper">
                                 <div class="entry-content">
                                     <div class="entry-header">
-                                        <h2><a href="#">10 Festival Tips</a></h2>
+                                        <h2><a href="#">Chunxi Road</a></h2>
                                     </div><!-- entry-header -->
 
                                     <div class="entry-meta">
-                                        <span class="author-name"><a href="#"> By James Williams</a></span>
+                                        <span class="author-name"><a href="#"> By Travel China Guide</a></span>
                                         <span class="space">|</span>
                                         <span class="comments-count"><a href="#">3 comments</a></span>
                                     </div><!-- entry-meta -->
 
                                     <div class="entry-description">
-                                        <p>Quisque at erat eu libero consequat tempus.
-                                            Quisque mole stie convallis tempus.
-                                            Ut semper purus metus, a euismod sapien sodales ac.
-                                            Duis viverra eleifend fermentum.</p>
+                                        <p>If one travels to Chengdu for the first time, Chunxi Road Pedestrian Street is a place that should not be missed. Located in Jinjiang District, this road in a broad sense covers an area of about 200,000 square meters (2,150,000 square feet). It stretches to the east of Beixin Street, the west of Hongxing Road, the south of Zongfu Road, and the north of East Street. The street was originally built in 1924 to connect two commercial centers, the East Street and Mercantile Corporation. After nearly 100 years of evolution, it is now not only the center of fashion in Chengdu, but also a place that brings together delicious snacks from all over the country.</p>
                                     </div><!-- entry-description -->
                                 </div><!-- entry-content -->
                             </div><!-- content-wrapper -->
@@ -434,7 +431,7 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
 
                         <div class="col-12 col-md-6">
                             <figure class="featured-image">
-                                <a href="#"> <img src="images/news-image-1.jpg" alt="fesival+celebration"> </a>
+                                <a href="#"> <img src="images/news-image-2.jpg" alt="fesival+celebration"> </a>
                             </figure><!-- featured-image -->
 
                             <div class="box-link-date">
@@ -444,20 +441,17 @@ Located in the southwest of chengdu plain, sichuan basin, middle reaches of minj
                             <div class="content-wrapper">
                                 <div class="entry-content">
                                     <div class="entry-header">
-                                        <h2><a href="#">New event calendar for this year</a></h2>
+                                        <h2><a href="#">Hongyadong</a></h2>
                                     </div><!-- entry-header -->
 
                                     <div class="entry-meta">
-                                        <span class="author-name"><a href="#">By James Williams</a></span>
+                                        <span class="author-name"><a href="#">By Chongqingtrip</a></span>
                                         <span class="space">|</span>
                                         <span class="comments-count"><a href="#">3 comments</a></span>
                                     </div><!-- entry-meta -->
 
                                     <div class="entry-description">
-                                        <p>Quisque at erat eu libero consequat tempus.
-                                            Quisque mole stie convallis tempus.
-                                            Ut semper purus metus, a euismod sapien sodales ac.
-                                            Duis viverra eleifend fermentum.</p>
+                                        <p>Visiting a Hongyadong restaurant is a special treat, especially at night when the bright lights come on and offer a beautiful view of the Jialing River.</p>
                                     </div><!-- entry-description -->
                                 </div><!-- entry-content -->
                             </div><!-- .content-wrapper -->
