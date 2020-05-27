@@ -60,11 +60,11 @@
 
             <ul class="nav navbar-nav menu">
 
-              <li><a href="../book/index.php">HOME</a></li>
-            <li><a href="../book/elements.php">Top Place</a></li>
+              <li><a href="../book/index.php">Home</a></li>
+            <li><a href="../book/elements.php">History</a></li>
             <li><a href="../ticket/booking.php">Ticket</a></li>
             <li><a href="../food/food.php">Food</a></li>
-            <li><a href="../book/contact.php">CONTACT</a></li>
+            <li><a href="../book/contact.php">Contact</a></li>
 
             </ul>
 
@@ -76,9 +76,9 @@
 
       <div class="col-md-8 col-md-offset-2 col-xs-12 text-center text-banner">
 
-        <h2>Introducing Majestic</h2>
+        <h2>Introducing Menu</h2>
 
-        <p>Dilicious Foods & Dining Since 1990</p>
+        <p>Dilicious Foods & Drinks On Tour</p>
 
       </div>
 
@@ -94,11 +94,11 @@
 
     <div class="col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-12 welcome-text">
 
-      <h3>Welcome To</h3>
+      <h3>Welcome To CBC</h3>
 
-      <span class="header-text">Majestic</span>
+      <span class="header-text">Fufill Your Stomach</span>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis quam at laoreet porta. Ut suscipit erat libero, ut tincidunt mauris lacinia vel. Aliquam ultrices dolor sit amet neque faucibus vehicula. Vivamus laoreet lorem lacus, a maximus nunc dictum a. Phasellus felis turpis, elementum nec justo id, imperdiet malesuada erat.</p>
+      <p>During a long time tour, there is need to eat some dilicious food and drink some waters for fufilling our stomach. So please chose what you want! </p>
 
     </div>
 
@@ -122,9 +122,9 @@
 
       <div class="col-md-8 col-md-offset-2 col-xs-12 uphead">
 
-        <h3>Upcoming Event</h3>
+        <h3>Food Timing</h3>
 
-        <span class="header-text">Majestic</span> </div>
+        <span class="header-text">Lunch</span> </div>
 
       <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 upbox">
 
@@ -133,7 +133,7 @@
         <div class="col-md-12 col-sm-12 col-xs-12 special-note"> 
 
           
-          <p>This Sunday at 3:00 PM, We are organizing special event!</p>
+          <p>Start order at 10:00 AM before you take the bus next day, in order that we have time to prepare for you!</p>
 
         </div>
 
@@ -146,7 +146,7 @@
   </div>
 
 </div>
-<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >自助建站</a></div>
+<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >CBC</a></div>
 <div class="container-fluid menu-section section-container">
 
   <div class="row">
@@ -175,7 +175,7 @@
 
               <li>
 
-                <p class="menuname">Quail</p>
+                <p class="menuname">Fried Rice With  Egg</p>
 
                 <p class="price">$9.1</p>
 
@@ -183,7 +183,7 @@
 
               <li>
 
-                <p class="menuname">Crispy</p>
+                <p class="menuname">Mutton Curry With Rice</p>
 
                 <p class="price">$11.5</p>
 
@@ -207,7 +207,7 @@
 
               <li>
 
-                <p class="menuname">Seasonal Soup</p>
+                <p class="menuname">Pumpkin Porriage</p>
 
                 <p class="price">$7</p>
 
@@ -223,7 +223,7 @@
 
               <li>
 
-                <p class="menuname">Quail</p>
+                <p class="menuname">Cola</p>
 
                 <p class="price">$9.1</p>
 
@@ -231,7 +231,7 @@
 
               <li>
 
-                <p class="menuname">Crispy</p>
+                <p class="menuname">Soda Water</p>
 
                 <p class="price">$11.5</p>
 
@@ -247,7 +247,7 @@
 
               <li>
 
-                <p class="menuname">Quail</p>
+                <p class="menuname">Orange Juice</p>
 
                 <p class="price">$9.1</p>
 
@@ -321,7 +321,7 @@
 
         <h3>Delicious Menu</h3>
 
-        <span class="header-text">Majestic</span> <img src="images/menu.jpg"/> </div>
+        <span class="header-text">Healthy Food</span> <img src="images/menu.jpg"/> </div>
 
     </div>
 
@@ -337,13 +337,13 @@
 
     <div class="col-md-8 col-md-offset-2 bookhead">
 
-      <h3>Book Your Table</h3>
+      <h3>Book Your Food</h3>
 
-      <span class="header-text">Majestic</span> </div>
+      <span class="header-text">Lunch</span> </div>
 
     <div class="col-md-8 col-md-offset-2 opening">
 
-      <h4>Opening Hours</h4>
+      <h4>Time for Order</h4>
 
       <p>Sunday to Tuesday 09.00 - 24:00 & Friday and Sunday 08:00 - 03.00</p>
 
@@ -435,17 +435,17 @@
 
       <h3>Contact</h3>
 
-      <span class="header-text">Majestic</span> </div>
+      <span class="header-text">CBC</span> </div>
 
     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 
       <div class="col-md-6 col-sm-6 address">
 
-        <p>111-Brilliant Apartnment,</p>
+        <p>111-Chengdu yulinApartnment,</p>
 
         <p>Street-7 Local Highway,</p>
 
-        <p>Newyork - 392001</p>
+        <p>Tel - 392001</p>
 
       </div>
 
@@ -477,8 +477,8 @@
 
     <div class="col-md-12 col-sm-12">
 
-      <p>&copy; 2015 Designed By HTML5 Layouts Using <a href="#">Picjumbo</a> Images. | <a href="#">Get Vector Graphics</a></p>
-      <p>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+      <p>&copy; 2015 Designed By L5K1C <a href="index.html">Food Reservation</a> Images. | <a href="#">Get Vector Graphics</a></p>
+      <p>More Informations <a href="http://www.cssmoban.com/" target="_blank" title="CBC">CBC</a> - Collect from <a href="http://www.cssmoban.com/" title="CBC" target="_blank">CBC</a></p>
 
     </div>
 
