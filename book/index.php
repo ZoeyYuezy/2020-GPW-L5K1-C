@@ -153,7 +153,7 @@ require('db.php');
                                         </div><!-- entry-title -->
 
                                         <div class="entry-content">
-                                            <p>Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum. </p>
+                                            <p>Leshan is a prefecture level city located at the confluence of the Dadu Qingyi and Min rivers in Sichuan Province. </p>
                                         </div><!-- entry-content -->
 
                                         <div class="box-link">
