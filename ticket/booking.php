@@ -70,7 +70,7 @@
                                     <div class="row">
  			                       	<div class="col-xs-6">
             							<div class="ticket-name">
-                                        	Jiuzhaigou
+                                        	Chengdu----Jiuzhaigou
                                             <span>Standing<br>
                                         	1 Ticket for 1 person</span>
                                         </div>
@@ -93,7 +93,7 @@
                                                   </span>
                                                 </div>
                                             </div>
-                                            <p class="price">Rs.410</p>
+                                            <p class="price">Business: 820 Eeconomy: 410</p>
                                         </div>
             						</div>
                                     </div>
@@ -113,7 +113,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Meishan<span>
+            							<div class="ticket-name">Chengdu----Meishan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -136,7 +136,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.70</p>
+                                            <p class="price">Business: 140 Eeconomy: 70</p>
                                         </div>
             						</div>
                                     </div>
@@ -155,7 +155,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Neijiang <span>
+            							<div class="ticket-name">Chengdu----Neijiang <span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -178,7 +178,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.135</p>
+                                            <p class="price">Business:270 Eeconomy: 135</p>
                                         </div>
             						</div>
                                     </div>
@@ -197,7 +197,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Yaan<span>
+            							<div class="ticket-name">Suiling----Yaan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -220,7 +220,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.280</p>
+                                            <p class="price">Business: 560 Eeconomy: 280</p>
                                         </div>
             						</div>
                                     </div>
@@ -239,7 +239,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Deyang<span>
+            							<div class="ticket-name">Chengdu----Deyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -262,7 +262,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.290</p>
+                                            <p class="price">Business: 580 Eeconomy: 290</p>
                                         </div>
             						</div>
                                     </div>
@@ -281,7 +281,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Mianyang<span>
+            							<div class="ticket-name">Chengdu----Mianyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -304,7 +304,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.130</p>
+                                            <p class="price">Business: 260 Eeconomy: 130</p>
                                         </div>
             						</div>
                                     </div>
@@ -323,7 +323,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Ziyang<span>
+            							<div class="ticket-name">Chengdu----Ziyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</div>
             						</div>
@@ -346,7 +346,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.180</p>
+                                            <p class="price">Business: 360 Eeconomy: 180</p>
                                         </div>
             						</div>
                                     </div>
@@ -388,7 +388,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.140</p>
+                                            <p class="price">Business:300 Eeconomy: 140</p>
                                         </div>
             						</div>
                                     </div>
