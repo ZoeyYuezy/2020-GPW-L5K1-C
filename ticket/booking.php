@@ -64,13 +64,13 @@
                     <div role="tabpanel" class="tab-pane fade in active" id="buyTicket">
                     	<div class="row">
                         	<div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="50000">
+                            	<div class="ticketBox" data-ticket-price="410">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
             							<div class="ticket-name">
-                                        	Chengdu----Jiuzhaigou
+                                        	Chengdu--Jiuzhaigou
                                             <span>Standing<br>
                                         	1 Ticket for 1 person</span>
                                         </div>
@@ -108,12 +108,12 @@
                             </div>
                             <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">CBC</a></div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="40000">
+                            	<div class="ticketBox" data-ticket-price="70">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Chengdu----Meishan<span>
+            							<div class="ticket-name">Chengdu--Meishan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -150,12 +150,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="25000">
+                            	<div class="ticketBox" data-ticket-price="270">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Chengdu----Neijiang <span>
+            							<div class="ticket-name">Chengdu--Neijiang <span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -192,12 +192,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="20000">
+                            	<div class="ticketBox" data-ticket-price="280">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Suiling----Yaan<span>
+            							<div class="ticket-name">Suiling--Yaan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -234,12 +234,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="18000">
+                            	<div class="ticketBox" data-ticket-price="290">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Chengdu----Deyang<span>
+            							<div class="ticket-name">Chengdu--Deyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -276,12 +276,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="15000">
+                            	<div class="ticketBox" data-ticket-price="130">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Chengdu----Mianyang<span>
+            							<div class="ticket-name">Chengdu--Mianyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -318,12 +318,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="10000">
+                            	<div class="ticketBox" data-ticket-price="360">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Chengdu----Ziyang<span>
+            							<div class="ticket-name">Chengdu--Ziyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</div>
             						</div>
@@ -360,7 +360,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="5000">
+                            	<div class="ticketBox" data-ticket-price="140">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -398,7 +398,91 @@
                                     	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
                                         2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
-                                            
+                                           
+                                    
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                            	<div class="ticketBox" data-ticket-price="40">
+                                	<div class="inactiveStatus"></div>
+                                    
+                                    <div class="row">
+ 			                       	<div class="col-xs-6">
+            							<div class="ticket-name">Chengdu--Dujiangyan<span>
+                                        Standing<br>
+                                        1 Ticket for 1 person</span></div>
+            						</div>
+                                    
+                                    <div class="col-xs-6">
+            							<div class="ticket-price-count-box">
+                                            <div class="ticket-control">
+                                                <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[8]">
+                                                          <span class="glyphicon glyphicon-minus"></span>
+                                                      </button>
+                                                  </span>
+                                                  <input type="text" name="quant[8]" class="form-control input-number" value="0" min="0" max="10">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[8]">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                                </div>
+                                                
+                                            </div>
+                                            <p class="price">Business:40 Eeconomy: 15</p>
+                                        </div>
+            						</div>
+                                    </div>
+                                	
+                                    
+                                    <div class="ticket-description">
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
+                                    </div>
+                                    
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                            	<div class="ticketBox" data-ticket-price="80">
+                                	<div class="inactiveStatus"></div>
+                                    
+                                    <div class="row">
+ 			                       	<div class="col-xs-6">
+            							<div class="ticket-name">Chengdu--Nanchong<span>
+                                        Standing<br>
+                                        1 Ticket for 1 person</span></div>
+            						</div>
+                                    
+                                    <div class="col-xs-6">
+            							<div class="ticket-price-count-box">
+                                            <div class="ticket-control">
+                                                <div class="input-group">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[8]">
+                                                          <span class="glyphicon glyphicon-minus"></span>
+                                                      </button>
+                                                  </span>
+                                                  <input type="text" name="quant[8]" class="form-control input-number" value="0" min="0" max="10">
+                                                  <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[8]">
+                                                          <span class="glyphicon glyphicon-plus"></span>
+                                                      </button>
+                                                  </span>
+                                                </div>
+                                                
+                                            </div>
+                                            <p class="price">Business:140 Eeconomy: 80</p>
+                                        </div>
+            						</div>
+                                    </div>
+                                	
+                                    
+                                    <div class="ticket-description">
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
