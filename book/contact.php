@@ -76,7 +76,7 @@
     <div class="container">
         <div class="main-content">
             <div class="contact-page-map">
-                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe id="gmap_canvas"img src="images/bus.jpg" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div><!-- map -->
 
             <div class="contact-details">
