@@ -70,7 +70,7 @@
                                     <div class="row">
  			                       	<div class="col-xs-6">
             							<div class="ticket-name">
-                                        	Platinum
+                                        	Jiuzhaigou
                                             <span>Standing<br>
                                         	1 Ticket for 1 person</span>
                                         </div>
@@ -93,26 +93,27 @@
                                                   </span>
                                                 </div>
                                             </div>
-                                            <p class="price">Rs.50000</p>
+                                            <p class="price">Rs.410</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
                             </div>
-                            <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+                            <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">CBC</a></div>
                             <div class="col-md-6">
                             	<div class="ticketBox" data-ticket-price="40000">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Gold<span>
+            							<div class="ticket-name">Meishan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -135,14 +136,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.40000</p>
+                                            <p class="price">Rs.70</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -153,7 +155,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Silver <span>
+            							<div class="ticket-name">Neijiang <span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -176,14 +178,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.25000</p>
+                                            <p class="price">Rs.135</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -194,7 +197,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Diamond<span>
+            							<div class="ticket-name">Yaan<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -217,14 +220,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.20000</p>
+                                            <p class="price">Rs.280</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -235,7 +239,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Ruby<span>
+            							<div class="ticket-name">Deyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -258,14 +262,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.18000</p>
+                                            <p class="price">Rs.290</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -276,7 +281,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Pearl<span>
+            							<div class="ticket-name">Mianyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -299,14 +304,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.15000</p>
+                                            <p class="price">Rs.130</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -317,7 +323,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Emerald<span>
+            							<div class="ticket-name">Ziyang<span>
                                         Standing<br>
                                         1 Ticket for 1 person</div>
             						</div>
@@ -340,14 +346,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.10000</p>
+                                            <p class="price">Rs.180</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -358,7 +365,7 @@
                                     
                                     <div class="row">
  			                       	<div class="col-xs-6">
-            							<div class="ticket-name">Plaza<span>
+            							<div class="ticket-name">Chongqing<span>
                                         Standing<br>
                                         1 Ticket for 1 person</span></div>
             						</div>
@@ -381,14 +388,15 @@
                                                 </div>
                                                 
                                             </div>
-                                            <p class="price">Rs.5000</p>
+                                            <p class="price">Rs.140</p>
                                         </div>
             						</div>
                                     </div>
                                 	
                                     
                                     <div class="ticket-description">
-                                    	<p><strong>Please refer Venue Plan:</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    	<p><strong>Instructions for purchasing tickets:</strong><br>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</p>
                                     </div>
                                             
                                 </div>
@@ -400,9 +408,12 @@
                        
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="termCondition">
-           				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+           				<h4>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</h4>
+                        <h4>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</h4>
+                        <h4>1.Ticket for bus, one ticket for each person (no re-use)
+                                        2.Please observe the rules and regulations of the bus and take good care of the elderly, children and pregnant women.</h4>
                     </div>
                   </div>
                 
