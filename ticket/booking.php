@@ -34,12 +34,12 @@
         	<div class="col-sm-5 left-wrapper">
             	<div class="event-banner-wrapper">
                 	<div class="logo">
-                        <h1>Stage</h1>
+                        <h1>Road</h1>
                     </div>
                 
                 	<h2>
-                    Music<br>Concert Live
-                    <span>10 April 2017, 8:00 PM</span>
+                    Reservation<br>
+                    <span></span>
                     </h2>
                     <p>More Templates <a href="http://www.cbc.com/" target="_blank" title="cbc">CBC</a> - Collect from <a href="http://www.cbc.com/" title="CBC" target="_blank">CBC</a></p>
                 </div>
