@@ -179,7 +179,8 @@ require('db.php');
                                         </div><!-- entry-title -->
 
                                         <div class="entry-content">
-                                            <p>Quisque at erat eu libero consequat tempus. Quisque mole stie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum. </p>
+                                            <p>Meishan, a prefecture-level city in sichuan province, gets its name from mount emei.
+Located in the southwest of chengdu plain, sichuan basin, middle reaches of minjiang river.</p>
                                         </div><!-- entry-content -->
 
                                         <div class="box-link">
