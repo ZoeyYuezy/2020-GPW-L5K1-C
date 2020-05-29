@@ -12,18 +12,18 @@ class Sales extends Model
 
     
 
-    // Table Name
+    // 表名
     protected $name = 'sales';
     
-    // AutoWriteTimestamp
+    // 自动写入时间戳字段
     protected $autoWriteTimestamp = false;
 
-    // CreateTime
+    // 定义时间戳字段名
     protected $createTime = false;
     protected $updateTime = false;
     protected $deleteTime = false;
 
-    // Append
+    // 追加属性
     protected $append = [
 
     ];
