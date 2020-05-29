@@ -8,14 +8,14 @@ use think\Model;
 class User extends Model
 {
 
-    // 表名
+    // TableName
     protected $name = 'user';
-    // 自动写入时间戳字段
+    // AutoWriteTimestamp
     protected $autoWriteTimestamp = 'int';
-    // 定义时间戳字段名
+    // CreateTime
     protected $createTime = 'createtime';
     protected $updateTime = 'updatetime';
-    // 追加属性
+    // Append
     protected $append = [
         'prevtime_text',
         'logintime_text',
