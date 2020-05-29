@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
           <a class="dropdown-item" href="#">Pages</a>
-          <a class="dropdown-item" href="register.html">Sign up</a>
+          <a class="dropdown-item" href="login.php">Sign up</a>
             <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="memo.php">Memo</a>
