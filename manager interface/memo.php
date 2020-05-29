@@ -33,7 +33,7 @@ require('db.php');
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index2.php">CBC Management</a>
+    <a class="navbar-brand mr-1" href="index2.php">CBC Staff Management</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -64,7 +64,7 @@ require('db.php');
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="memo.php">Memo Page</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="login.php" data-toggle="modal" data-target="#logoutModal">Log out</a>
+          <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">Log out</a>
         </div>
       </li>
     </ul>
@@ -88,7 +88,7 @@ require('db.php');
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Login Screens:</h6>
-          <a class="dropdown-item" href="login.php">Login</a>
+          <a class="dropdown-item" href="logout.php">Log out</a>
           <a class="dropdown-item" href="register.html">Register</a>
           <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
           <div class="dropdown-divider"></div>
@@ -151,7 +151,7 @@ $row = mysqli_fetch_array($result);
 ?>
               
               <h6 class="m-0 font-weight-bold text-primary">CBC Memorandum</h6>
-            <a class="btn btn-primary" href="addmemo.php" style="margin-left: 800px; margin-top: -10;">Add CBC Memorandum</a></div>
+           
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -160,8 +160,6 @@ $row = mysqli_fetch_array($result);
                            <th>id</th>
                            <th>title</th>
                            <th>content</th>
-                           <th>update</th>
-                           <th>delete</th>
                            
                            
                        </tr>
@@ -175,9 +173,7 @@ while($row = mysqli_fetch_array($result)){
     echo"<td>" . $row["id"] . "</td>";
     echo"<td>" . $row["title"] . "</td>";
     echo"<td>" . $row["content"] . "</td>";
-   echo"<td><a href=updatememo.php?id=" . $row["id"] . ">update</a></td>";
-    echo"<td><a href=deletememo.php?id=" . $row["id"] . ">delete</a></td>";
-    
+   
     echo"</tr>";
 }
 

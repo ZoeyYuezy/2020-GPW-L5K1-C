@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index2.php">CBC Management</a>
+    <a class="navbar-brand mr-1" href="index2.php">CBC Staff Management</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="memo.php">Memo</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="login.php" data-toggle="modal" data-target="#logoutModal">Log out</a>
+          <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">Log out</a>
         </div>
       </li>
     </ul>
@@ -103,7 +103,7 @@ if (isset($_POST['submit'])) {
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Function:</h6>
-          <a class="dropdown-item" href="login.php">Login</a>
+          <a class="dropdown-item" href="logout.php">Log out</a>
           <a class="dropdown-item" href="register.html">Register</a>
           <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
           <div class="dropdown-divider"></div>
